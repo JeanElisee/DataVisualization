@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <meta charset="utf-8">
 <head>
+    <title>Number of artist per country</title>
     <style>
 
         .names {
@@ -16,7 +17,7 @@
             font-family: "avenir next", Arial, sans-serif;
             padding: 6px;
             background: rgba(0, 0, 0, 0.6);
-            color: #4693c4;
+            color: #FFF;
             border-radius: 1px;
             pointer-events: none;
         }
@@ -87,11 +88,21 @@
 </head>
 
 <body>
-<select id="select-color" style="position: absolute; top: 40px; left: 100px">
-    <option value="" selected>Select a filter</option>
-    <option value="greater">Size greater than 20</option>
-    <option value="below">Below 20</option>
-</select>
+<form>
+    <select id="select-color" style="position: absolute; top: 40px; left: 100px">
+        <option value="" selected>Select a filter</option>
+        <option value="greater">Number of artists greater than 20</option>
+        <option value="below">Number of artists below 20</option>
+    </select>
+
+    <!--    <div id="select-color" style="position: absolute; top: 60px; right: 200px">-->
+    <!--        <p>Select a filter:</p>-->
+    <!--        <input type="radio" id="below_20" name="filter" value="below_20">-->
+    <!--        <label for="below_20">Number of artists greater than 20</label><br>-->
+    <!--        <input type="radio" id="greater_20" name="filter" value="greater_20">-->
+    <!--        <label for="greater_20">Number of artists below 20</label><br>-->
+    <!--    </div>-->
+</form>
 
 <!-- Create an element where the map will take place -->
 <svg id="my_dataviz" width="100" height="100"></svg>
@@ -100,29 +111,29 @@
     var format = d3.format(",");
 
     var colorSelect = d3.select("#select-color")
-        .on("change", function (d) {
-
+        .on("change", function () {
             let colorOption = colorSelect.property('value')
 
             if (!colorOption) {
                 return;
             }
-            console.log(colorOption);
 
-            // d3.selectAll('circle')
-            //     .transition()
-            //     .duration(750)
-            //     .style('fill', function (d) {
-            //         if (!d.children) {
-            //             if (colorOption == "greater") {
-            //                 return d.data.size > 1000 ? "GoldenRod" : "white"
-            //             } else {
-            //                 return d.data.name.startsWith('A') ? "LightCoral" : "white"
-            //             }
-            //         } else {
-            //             return "null"
-            //         }
-            //     })
+            d3.selectAll('g')
+                .transition()
+                .duration(750)
+                .style('fill', function (d) {
+                    console.log(d);
+                    return d;
+                    // if (!d.children) {
+                    //     if (colorOption == "greater") {
+                    //         return d.data.size > 1000 ? "GoldenRod" : "white"
+                    //     } else {
+                    //         return d.data.name.startsWith('A') ? "LightCoral" : "white"
+                    //     }
+                    // } else {
+                    //     return "null"
+                    // }
+                })
         })
 
     // Set tooltips
@@ -133,10 +144,10 @@
             if (d.total > 0)
                 return "<strong>Country: </strong><span class='details'>" + d.properties.name + "<br></span>" + "<strong>Artist: </strong><span class='details'>" + format(d.total) + "</span>";
             else
-                return d.properties.name.toUpperCase() + " - NO INFOS"
+                return "<strong>" + d.properties.name.toUpperCase() + "</strong> - NO INFOS"
         })
 
-    var margin = {top: -250, right: 0, bottom: 0, left: 0},
+    var margin = {top: -250, right: 0, bottom: 0, left: -80},
         width = 960 - margin.left - margin.right,
         height = 500 - margin.top - margin.bottom;
 
@@ -162,21 +173,8 @@
     const legendCellSize = 25,
         colors = d3.schemeBlues[7];
 
-    legend.selectAll()
-        .data(d3.range(colors.length))
-        .enter().append('svg:rect')
-        .attr('height', legendCellSize + 'px')
-        .attr('width', legendCellSize + 'px')
-        .attr('x', 5)
-        .attr('y', d => d * legendCellSize)
-        .style("fill", d => colors[d]);
-
-    var legendScale = d3.scaleLinear().domain([1, 20000])
+    var legendScale = d3.scaleLinear().domain([0, 20000])
         .range([0, colors.length * legendCellSize]);
-
-    legendAxis = legend.append("g")
-        .attr("class", "axis")
-        .call(d3.axisLeft(legendScale));
 
     // Data and color scale
     var data = d3.map();
@@ -205,10 +203,10 @@
             .text("Number of artist per country".toUpperCase());
 
         svg.append("text")
-            .attr("x", (width / 2))
+            .attr("x", (width / 3))
             .attr("y", 70)
             .attr("dy", ".35em")
-            .text("Test");
+            .text("This graph show the repartition of artist per country.");
 
         svg.append("g")
             .selectAll("path")
@@ -216,9 +214,7 @@
             .enter()
             .append("path")
             // draw each country
-            .attr("d", d3.geoPath()
-                .projection(projection)
-            )
+            .attr("d", path)
             // set the color of each country
             .attr("fill", function (d) {
                 d.total = data.get(d.id) || 0;
@@ -236,7 +232,7 @@
                 d3.select(this)
                     .style("opacity", 1)
                     .style("stroke", "#000")
-                    .style("stroke-width", 3);
+                    .style("stroke-width", 2);
             })
             .on('mouseout', function (d) {
                 tip.hide(d);
@@ -256,6 +252,41 @@
         //     }))
         //     .attr("class", "names")
         //     .attr("d", path);
+
+
+        // To handle the cursor movements on the legend
+        legend.selectAll()
+            .data(d3.range(colors.length))
+            .enter().append('svg:rect')
+            .attr('height', legendCellSize + 'px')
+            .attr('width', legendCellSize + 'px')
+            .attr('x', 5)
+            .attr('y', d => d * legendCellSize)
+            .style("fill", d => colors[d])
+            .on("mouseover", function (d) {
+                legend.select("#cursor")
+                    .attr('transform', 'translate(' + (legendCellSize + 5) + ', ' + (d * legendCellSize) + ')')
+                    .style("display", null);
+                d3.selectAll("path[fill='" + colors[d] + "']")
+                    .style('fill', "#FFFF00");
+            })
+            .on("mouseout", function (d) {
+                legend.select("#cursor")
+                    // Change the ID of the path in order to match with the code
+                    .style("display", "none");
+                d3.selectAll("path[fill='" + colors[d] + "']")
+                    .style('fill', colors[d]);
+            });
+
+        legend.selectAll()
+            .attr('x', 10)
+            .attr('y', d => d * legendCellSize)
+            .style("fill", d => colors[d]);
+
+        svg.append("g")
+            .data(topo.features)
+            .attr('transform', 'translate(42, 150)')
+            .call(d3.axisRight(legendScale).ticks(7));
     }
 </script>
 </body>
