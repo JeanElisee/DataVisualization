@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<head>
+    <style>
+
+        .names {
+            fill: none;
+            stroke: #fff;
+            stroke-linejoin: round;
+        }
+
+        /* Tooltip CSS */
+        .d3-tip {
+            line-height: 1.5;
+            font-weight: 400;
+            font-family: "avenir next", Arial, sans-serif;
+            padding: 6px;
+            background: rgba(0, 0, 0, 0.6);
+            color: #4693c4;
+            border-radius: 1px;
+            pointer-events: none;
+        }
+
+        /* Creates a small triangle extender for the tooltip */
+        .d3-tip:after {
+            box-sizing: border-box;
+            display: inline;
+            font-size: 8px;
+            width: 100%;
+            line-height: 1.5;
+            color: rgba(0, 0, 0, 0.6);
+            position: absolute;
+            pointer-events: none;
+
+        }
+
+        /* Northward tooltips */
+        .d3-tip.n:after {
+            content: "\25BC";
+            margin: -1px 0 0 0;
+            top: 100%;
+            left: 0;
+            text-align: center;
+        }
+
+        /* Eastward tooltips */
+        .d3-tip.e:after {
+            content: "\25C0";
+            margin: -4px 0 0 0;
+            top: 50%;
+            left: -8px;
+        }
+
+        /* Southward tooltips */
+        .d3-tip.s:after {
+            content: "\25B2";
+            margin: 0 0 1px 0;
+            top: -8px;
+            left: 0;
+            text-align: center;
+        }
+
+        /* Westward tooltips */
+        .d3-tip.w:after {
+            content: "\25B6";
+            margin: -4px 0 0 -1px;
+            top: 50%;
+            left: 100%;
+        }
+
+        /*    text{
+              pointer-events:none;
+            }*/
+
+        .details {
+            color: white;
+        }
+
+    </style>
+
+    <!-- Load d3.js -->
+    <script src="https://d3js.org/d3.v4.js"></script>
+    <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+    <script src="https://d3js.org/d3-geo-projection.v2.min.js"></script>
+    <script src="https://d3js.org/topojson.v1.min.js"></script>
+    <script src="bubble_map.js"></script>
+</head>
+
+<body>
+<select id="select-color" style="position: absolute; top: 40px; left: 100px">
+    <option value="" selected>Select a filter</option>
+    <option value="greater">Size greater than 20</option>
+    <option value="below">Below 20</option>
+</select>
+
+<!-- Create an element where the map will take place -->
+<svg id="my_dataviz" width="100" height="100"></svg>
+
+<script>
+    var format = d3.format(",");
+
+    var colorSelect = d3.select("#select-color")
+        .on("change", function (d) {
+
+            let colorOption = colorSelect.property('value')
+
+            if (!colorOption) {
+                return;
+            }
+            console.log(colorOption);
+
+            // d3.selectAll('circle')
+            //     .transition()
+            //     .duration(750)
+            //     .style('fill', function (d) {
+            //         if (!d.children) {
+            //             if (colorOption == "greater") {
+            //                 return d.data.size > 1000 ? "GoldenRod" : "white"
+            //             } else {
+            //                 return d.data.name.startsWith('A') ? "LightCoral" : "white"
+            //             }
+            //         } else {
+            //             return "null"
+            //         }
+            //     })
+        })
+
+    // Set tooltips
+    var tip = d3.tip()
+        .attr('class', 'd3-tip')
+        .offset([-10, 0])
+        .html(function (d) {
+            if (d.total > 0)
+                return "<strong>Country: </strong><span class='details'>" + d.properties.name + "<br></span>" + "<strong>Artist: </strong><span class='details'>" + format(d.total) + "</span>";
+            else
+                return d.properties.name.toUpperCase() + " - NO INFOS"
+        })
+
+    var margin = {top: -250, right: 0, bottom: 0, left: 0},
+        width = 960 - margin.left - margin.right,
+        height = 500 - margin.top - margin.bottom;
+
+    var svg = d3.select("body")
+        .append("svg")
+        .attr("width", width)
+        .attr("height", height)
+        .append('g')
+        .attr('class', 'map');
+
+    var projection = d3.geoMercator()
+        .scale(130)
+        .translate([width / 2, height / 1.5]);
+
+    var path = d3.geoPath().projection(projection);
+
+    svg.call(tip);
+
+    // Legend creation
+    var legend = svg.append('g')
+        .attr('transform', 'translate(5, 150)');
+
+    const legendCellSize = 25,
+        colors = d3.schemeBlues[7];
+
+    legend.selectAll()
+        .data(d3.range(colors.length))
+        .enter().append('svg:rect')
+        .attr('height', legendCellSize + 'px')
+        .attr('width', legendCellSize + 'px')
+        .attr('x', 5)
+        .attr('y', d => d * legendCellSize)
+        .style("fill", d => colors[d]);
+
+    var legendScale = d3.scaleLinear().domain([1, 20000])
+        .range([0, colors.length * legendCellSize]);
+
+    legendAxis = legend.append("g")
+        .attr("class", "axis")
+        .call(d3.axisLeft(legendScale));
+
+    // Data and color scale
+    var data = d3.map();
+    var colorScale = d3.scaleThreshold()
+        .domain([1, 20, 100, 1000, 7000, 50000])
+        .range(d3.schemeBlues[7]);
+
+    // Load external data and boot
+    d3.queue()
+        .defer(d3.json, "https://raw.githubusercontent.com/holtzy/D3-graph-gallery/master/DATA/world.geojson")
+        .defer(d3.csv, "https://raw.githubusercontent.com/JeanElisee/test/main/country.csv", function (d) {
+            data.set(d.id, +d.value);
+        })
+        .await(ready);
+
+    function ready(error, topo) {
+        // Draw the map
+        // Adding the title on the visualisation
+        svg.append("text")
+            .attr("x", (width / 2))
+            .attr("y", 50)
+            .attr("text-anchor", "middle")
+            .style("fill", "#4693c4")
+            .style("font-weight", "300")
+            .style("font-size", "20px")
+            .text("Number of artist per country".toUpperCase());
+
+        svg.append("text")
+            .attr("x", (width / 2))
+            .attr("y", 70)
+            .attr("dy", ".35em")
+            .text("Test");
+
+        svg.append("g")
+            .selectAll("path")
+            .data(topo.features)
+            .enter()
+            .append("path")
+            // draw each country
+            .attr("d", d3.geoPath()
+                .projection(projection)
+            )
+            // set the color of each country
+            .attr("fill", function (d) {
+                d.total = data.get(d.id) || 0;
+                return colorScale(d.total);
+            })
+            .style('stroke', 'white')
+            .style('stroke-width', 1.5)
+            .style("opacity", 0.8)
+            // tooltips
+            .style("stroke", "white")
+            .style('stroke-width', 0.3)
+            .on('mouseover', function (d) {
+                tip.show(d);
+
+                d3.select(this)
+                    .style("opacity", 1)
+                    .style("stroke", "#000")
+                    .style("stroke-width", 3);
+            })
+            .on('mouseout', function (d) {
+                tip.hide(d);
+
+                d3.select(this)
+                    .style("opacity", 0.8)
+                    .style("stroke", "white")
+                    .style("stroke-width", 0.3);
+            });
+
+        // svg.append("path")
+        //     .datum(topojson.mesh(data.features, function (a, b) {
+        //         return a.id !== b.id;
+        //     }))
+        //     .datum(topojson.mesh(data.features, function (a, b) {
+        //         return a !== b;
+        //     }))
+        //     .attr("class", "names")
+        //     .attr("d", path);
+    }
+</script>
+</body>
