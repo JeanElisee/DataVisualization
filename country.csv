@@ -1,0 +1,176 @@
+,name,size,id,value,percent
+0,United States,19495,USA,19495,0
+1,England,4162,GBR,4162,0
+2,Germany,3022,DEU,3022,0
+3,Canada,1937,CAN,1937,0
+4,Sweden,1519,SWE,1519,0
+5,Italy,1482,ITA,1482,0
+6,France,1308,FRA,1308,0
+7,Australia,1097,AUS,1097,0
+8,Brazil,884,BRA,884,0
+9,Finland,870,FIN,870,0
+10,The Netherlands,865,NLD,865,0
+11,Spain,841,ESP,841,0
+12,Japan,710,JPN,710,0
+13,Mexico,611,MEX,611,0
+14,Poland,559,POL,559,0
+15,Norway,537,NOR,537,0
+16,Argentina,442,ARG,442,0
+17,Belgium,373,BEL,373,0
+18,Denmark,364,DNK,364,0
+19,Scotland,354,GBR,354,0
+20,Russia,301,RUS,301,0
+21,Turkey,297,TUR,297,0
+22,Austria,290,AUT,290,0
+23,Ireland,284,IRL,284,0
+24,Portugal,233,PRT,233,0
+25,Switzerland,209,CHE,209,0
+26,New Zealand,197,NZL,197,0
+27,India,192,IND,192,0
+28,Jamaica,189,JAM,189,0
+29,Multinational,183,29,183,0
+30,Chile,173,CHL,173,0
+31,United Kingdom,165,GBR,165,0
+32,Philippines,160,PHL,160,0
+33,Puerto Rico,155,PRI,155,0
+34,Czech Republic,154,CZE,154,0
+35,South Africa,146,ZAF,146,0
+36,Hungary,140,HUN,140,0
+37,Greece,123,GRC,123,0
+38,Wales,123,GBR,123,0
+39,Romania,119,ROU,119,0
+40,Colombia,118,COL,118,0
+41,South Korea,114,41,114,0
+42,Indonesia,105,IDN,105,0
+43,Israel,104,ISR,104,0
+44,Serbia,103,SRB,103,0
+45,Lithuania,89,LTU,89,0
+46,Iceland,84,ISL,84,0
+47,Croatia,76,HRV,76,0
+48,Northern Ireland,75,GBR,75,0
+49,Venezuela,74,VEN,74,0
+50,Ukraine,66,UKR,66,0
+51,Estonia,65,EST,65,0
+52,Slovakia,62,SVK,62,0
+53,Cuba,61,CUB,61,0
+54,Malaysia,56,MYS,56,0
+55,Uruguay,54,URY,54,0
+56,Peru,53,PER,53,0
+57,Dominican Republic,46,DOM,46,0
+58,Vietnam,42,VNM,42,0
+59,Albania,37,ALB,37,0
+60,Latvia,36,LVA,36,0
+61,Singapore,33,SGP,33,0
+62,Slovenia,33,SVN,33,0
+63,Bosnia and Herzegovina,33,BIH,33,0
+64,Iran,32,IRN,32,0
+65,Pakistan,29,PAK,29,0
+66,Belarus,28,BLR,28,0
+67,Panama,27,PAN,27,0
+68,Malta,25,MLT,25,0
+69,Bulgaria,23,BGR,23,0
+70,Costa Rica,21,CRI,21,0
+71,Egypt,19,EGY,19,0
+72,Moldova,19,MDA,19,0
+73,Trinidad and Tobago,18,TTO,18,0
+74,Nigeria,17,NGA,17,0
+75,Ecuador,17,ECU,17,0
+76,Bolivia,16,BOL,16,0
+77,Lebanon,16,LBN,16,0
+78,Taiwan,15,TWN,15,0
+79,Morocco,13,MAR,13,0
+80,Luxembourg,13,LUX,13,0
+81,Faroe Islands,12,FRO,12,0
+82,Hong Kong,12,HKG,12,0
+83,China,11,CHN,11,0
+84,Thailand,11,THA,11,0
+85,Barbados,10,BRB,10,0
+86,Guatemala,9,GTM,9,0
+87,Senegal,8,SEN,8,0
+88,Azerbaijan,8,AZE,8,0
+89,Mali,8,MLI,8,0
+90,Macedonia,8,MKD,8,0
+91,Algeria,8,DZA,8,0
+92,Democratic Republic of the Congo,7,92,7,0
+93,Tunisia,7,TUN,7,0
+94,Cameroon,7,CMR,7,0
+95,Georgia,7,GEO,7,0
+96,Guadeloupe,7,FRA,7,0
+97,Paraguay,7,PRY,7,0
+98,Cyprus,7,CYP,7,0
+99,Montenegro,7,MNE,7,0
+100,Angola,6,AGO,6,0
+101,Tanzania,6,TZA,6,0
+102,Uganda,6,UGA,6,0
+103,Republic of Kosovo,6,103,6,0
+104,The Bahamas,6,BHS,6,0
+105,Monaco,6,MCO,6,0
+106,Syria,6,SYR,6,0
+107,Bangladesh,6,BGD,6,0
+108,Armenia,6,ARM,6,0
+109,Isle of Man,6,IMN,6,0
+110,Suriname,5,SUR,5,0
+111,Nicaragua,5,NIC,5,0
+112,Guyana,5,GUY,5,0
+113,Honduras,4,HND,4,0
+114,Jordan,4,JOR,4,0
+115,Iraq,4,IRQ,4,0
+116,Cape Verde,4,116,4,0
+117,Côte d'Ivoire,4,CIV,4,0
+118,Martinique,4,MTQ,4,0
+119,Libya,3,LBY,3,0
+120,Nepal,3,NPL,3,0
+121,Zimbabwe,3,ZWE,3,0
+122,Ghana,3,GHA,3,0
+123,Haiti,3,HTI,3,0
+124,Bermuda,3,BMU,3,0
+125,Bahrain,3,BHR,3,0
+126,Zambia,3,ZMB,3,0
+127,Réunion,3,REU,3,0
+128,Gibraltar,3,GIB,3,0
+129,Netherlands Antilles,3,129,3,0
+130,United States Virgin Islands,3,130,3,0
+131,Vatican City,2,VAT,2,0
+132,Ethiopia,2,ETH,2,0
+133,Andorra,2,AND,2,0
+134,Jersey,2,JEY,2,0
+135,Guinea,2,GIN,2,0
+136,Saint Lucia,2,LCA,2,0
+137,Namibia,2,NAM,2,0
+138,Kazakhstan,2,KAZ,2,0
+139,Republic of the Congo,2,COG,2,0
+140,Liberia,2,LBR,2,0
+141,Grenada,2,GRD,2,0
+142,United_States,2,142,2,0
+143,The Netherlands‎,2,143,2,0
+144,Uzbekistan,2,UZB,2,0
+145,Greenland,2,GRL,2,0
+146,Sierra Leone,2,SLE,2,0
+147,Liechtenstein,2,LIE,2,0
+148,Saudi Arabia,2,SAU,2,0
+149,Madagascar,2,MDG,2,0
+150,Kenya,2,KEN,2,0
+151,Mozambique,2,MOZ,2,0
+152,Belize,2,BLZ,2,0
+153,British Virgin Islands,1,VGB,1,0
+154,Multinational‎,1,154,1,0
+155,United Arab Emirates,1,ARE,1,0
+156,Mauritius,1,MUS,1,0
+157,Rwanda,1,RWA,1,0
+158,United States,United States,United States,United States,0
+159,San Marino,1,SMR,1,0
+160,Benin,1,BEN,1,0
+161,Mongolia,1,MNG,1,0
+162,Saint Vincent and the Grenadines,1,VCT,1,0
+163,Malawi,1,MWI,1,0
+164,Dominica,1,DMA,1,0
+165,Montserrat,1,MSR,1,0
+166,The Gambia,1,GMB,1,0
+167,Sri Lanka,1,LKA,1,0
+168,El Salvador,1,SLV,1,0
+169,Burundi,1,BDI,1,0
+170,Czech Republic‎,1,170,1,0
+171,Oman,1,OMN,1,0
+172,Fiji,1,FJI,1,0
+173,French Guiana,1,GUF,1,0
+174,Kyrgyzstan,1,KGZ,1,0
