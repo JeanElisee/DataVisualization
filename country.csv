@@ -1,176 +1,176 @@
-,name,value,id,size
-0,United States,19495,USA,19495
-1,England,4162,GBR,4162
-2,Germany,3022,DEU,3022
-3,Canada,1937,CAN,1937
-4,Sweden,1519,SWE,1519
-5,Italy,1482,ITA,1482
-6,France,1308,FRA,1308
-7,Australia,1097,AUS,1097
-8,Brazil,884,BRA,884
-9,Finland,870,FIN,870
-10,The Netherlands,865,NLD,865
-11,Spain,841,ESP,841
-12,Japan,710,JPN,710
-13,Mexico,611,MEX,611
-14,Poland,559,POL,559
-15,Norway,537,NOR,537
-16,Argentina,442,ARG,442
-17,Belgium,373,BEL,373
-18,Denmark,364,DNK,364
-19,Scotland,354,GBR,354
-20,Russia,301,RUS,301
-21,Turkey,297,TUR,297
-22,Austria,290,AUT,290
-23,Ireland,284,IRL,284
-24,Portugal,233,PRT,233
-25,Switzerland,209,CHE,209
-26,New Zealand,197,NZL,197
-27,India,192,IND,192
-28,Jamaica,189,JAM,189
-29,Multinational,183,29,183
-30,Chile,173,CHL,173
-31,United Kingdom,165,GBR,165
-32,Philippines,160,PHL,160
-33,Puerto Rico,155,PRI,155
-34,Czech Republic,154,CZE,154
-35,South Africa,146,ZAF,146
-36,Hungary,140,HUN,140
-37,Wales,123,GBR,123
-38,Greece,123,GRC,123
-39,Romania,119,ROU,119
-40,Colombia,118,COL,118
-41,South Korea,114,41,114
-42,Indonesia,105,IDN,105
-43,Israel,104,ISR,104
-44,Serbia,103,SRB,103
-45,Lithuania,89,LTU,89
-46,Iceland,84,ISL,84
-47,Croatia,76,HRV,76
-48,Northern Ireland,75,GBR,75
-49,Venezuela,74,VEN,74
-50,Ukraine,66,UKR,66
-51,Estonia,65,EST,65
-52,Slovakia,62,SVK,62
-53,Cuba,61,CUB,61
-54,Malaysia,56,MYS,56
-55,Uruguay,54,URY,54
-56,Peru,53,PER,53
-57,Dominican Republic,46,DOM,46
-58,Vietnam,42,VNM,42
-59,Albania,37,ALB,37
-60,Latvia,36,LVA,36
-61,Slovenia,33,SVN,33
-62,Bosnia and Herzegovina,33,BIH,33
-63,Singapore,33,SGP,33
-64,Iran,32,IRN,32
-65,Pakistan,29,PAK,29
-66,Belarus,28,BLR,28
-67,Panama,27,PAN,27
-68,Malta,25,MLT,25
-69,Bulgaria,23,BGR,23
-70,Costa Rica,21,CRI,21
-71,Egypt,19,EGY,19
-72,Moldova,19,MDA,19
-73,Trinidad and Tobago,18,TTO,18
-74,Nigeria,17,NGA,17
-75,Ecuador,17,ECU,17
-76,Bolivia,16,BOL,16
-77,Lebanon,16,LBN,16
-78,Taiwan,15,TWN,15
-79,Luxembourg,13,LUX,13
-80,Morocco,13,MAR,13
-81,Faroe Islands,12,FRO,12
-82,Hong Kong,12,HKG,12
-83,China,11,CHN,11
-84,Thailand,11,THA,11
-85,Barbados,10,BRB,10
-86,Guatemala,9,GTM,9
-87,Algeria,8,DZA,8
-88,Azerbaijan,8,AZE,8
-89,Mali,8,MLI,8
-90,Macedonia,8,MKD,8
-91,Senegal,8,SEN,8
-92,Paraguay,7,PRY,7
-93,Cameroon,7,CMR,7
-94,Montenegro,7,MNE,7
-95,Cyprus,7,CYP,7
-96,Georgia,7,GEO,7
-97,Guadeloupe,7,FRA,7
-98,Democratic Republic of the Congo,7,98,7
-99,Tunisia,7,TUN,7
-100,Syria,6,SYR,6
-101,Isle of Man,6,IMN,6
-102,Tanzania,6,TZA,6
-103,Republic of Kosovo,6,103,6
-104,Armenia,6,ARM,6
-105,Uganda,6,UGA,6
-106,Bangladesh,6,BGD,6
-107,Angola,6,AGO,6
-108,The Bahamas,6,BHS,6
-109,Monaco,6,MCO,6
-110,Suriname,5,SUR,5
-111,Guyana,5,GUY,5
-112,Nicaragua,5,NIC,5
-113,Jordan,4,JOR,4
-114,Iraq,4,IRQ,4
-115,Côte d'Ivoire,4,CIV,4
-116,Martinique,4,MTQ,4
-117,Honduras,4,HND,4
-118,Cape Verde,4,118,4
-119,Bermuda,3,BMU,3
-120,Nepal,3,NPL,3
-121,Ghana,3,GHA,3
-122,Zambia,3,ZMB,3
-123,Bahrain,3,BHR,3
-124,Libya,3,LBY,3
-125,Haiti,3,HTI,3
-126,Gibraltar,3,GIB,3
-127,United States Virgin Islands,3,127,3
-128,Zimbabwe,3,ZWE,3
-129,Netherlands Antilles,3,129,3
-130,Réunion,3,REU,3
-131,Namibia,2,NAM,2
-132,Greenland,2,GRL,2
-133,Liechtenstein,2,LIE,2
-134,Uzbekistan,2,UZB,2
-135,Grenada,2,GRD,2
-136,Saint Lucia,2,LCA,2
-137,Jersey,2,JEY,2
-138,Madagascar,2,MDG,2
-139,Mozambique,2,MOZ,2
-140,Kazakhstan,2,KAZ,2
-141,Guinea,2,GIN,2
-142,The Netherlands‎,2,142,2
-143,Andorra,2,AND,2
-144,United_States,2,144,2
-145,Vatican City,2,VAT,2
-146,Republic of the Congo,2,COG,2
-147,Liberia,2,LBR,2
-148,Saudi Arabia,2,SAU,2
-149,Belize,2,BLZ,2
-150,Sierra Leone,2,SLE,2
-151,Kenya,2,KEN,2
-152,Ethiopia,2,ETH,2
-153,Montserrat,1,MSR,1
-154,French Guiana,1,GUF,1
-155,Malawi,1,MWI,1
-156,United States,United States,United States,United States
-157,Mauritius,1,MUS,1
-158,United Arab Emirates,1,ARE,1
-159,Rwanda,1,RWA,1
-160,Mongolia,1,MNG,1
-161,Sri Lanka,1,LKA,1
-162,Burundi,1,BDI,1
-163,Benin,1,BEN,1
-164,Multinational‎,1,164,1
-165,Fiji,1,FJI,1
-166,San Marino,1,SMR,1
-167,Dominica,1,DMA,1
-168,Saint Vincent and the Grenadines,1,VCT,1
-169,Oman,1,OMN,1
-170,El Salvador,1,SLV,1
-171,British Virgin Islands,1,VGB,1
-172,Czech Republic‎,1,172,1
-173,The Gambia,1,GMB,1
-174,Kyrgyzstan,1,KGZ,1
+,name,value,id,size,genres
+0,United States,19495,USA,19495,"[{'type': 'Rock', 'value': 470.0}, {'type': 'Blues', 'value': 377.0}, {'type': 'Hip Hop', 'value': 316.0}, {'type': 'Pop', 'value': 305.0}, {'type': 'Alternative Rock', 'value': 299.0}, {'type': 'Country', 'value': 296.0}, {'type': 'Indie Rock', 'value': 270.0}, {'type': 'R\\u0026B', 'value': 186.0}, {'type': 'Folk', 'value': 161.0}, {'type': 'Jazz', 'value': 137.0}]"
+1,England,4162,GBR,4162,"[{'type': 'Rock', 'value': 158.0}, {'type': 'Pop', 'value': 145.0}, {'type': 'Alternative Rock', 'value': 69.0}, {'type': 'Progressive Rock', 'value': 64.0}, {'type': 'Electronic', 'value': 58.0}, {'type': 'Indie Rock', 'value': 56.0}, {'type': 'Folk', 'value': 54.0}, {'type': 'Hard Rock', 'value': 41.0}, {'type': 'New Wave', 'value': 37.0}, {'type': 'Indie Pop', 'value': 34.0}]"
+2,Germany,3022,DEU,3022,"[{'type': 'Singer-Songwriter', 'value': 193.0}, {'type': 'Pop', 'value': 65.0}, {'type': 'Hip Hop', 'value': 54.0}, {'type': 'Electronic', 'value': 40.0}, {'type': 'Schlager', 'value': 38.0}, {'type': 'Chanson', 'value': 32.0}, {'type': 'Heavy Metal', 'value': 25.0}, {'type': 'Rock', 'value': 24.0}, {'type': 'Synthpop', 'value': 22.0}, {'type': 'Folk', 'value': 17.0}]"
+3,Canada,1937,CAN,1937,"[{'type': 'Rock', 'value': 94.0}, {'type': 'Pop', 'value': 46.0}, {'type': 'Indie Rock', 'value': 42.0}, {'type': 'Folk', 'value': 39.0}, {'type': 'Blues', 'value': 27.0}, {'type': 'Alternative Rock', 'value': 26.0}, {'type': 'Singer-Songwriter', 'value': 22.0}, {'type': 'Hip Hop', 'value': 19.0}, {'type': 'Country', 'value': 17.0}, {'type': 'Indie Pop', 'value': 17.0}]"
+4,Sweden,1519,SWE,1519,"[{'type': 'Pop', 'value': 31.0}, {'type': 'Indie Pop', 'value': 29.0}, {'type': 'Heavy Metal', 'value': 26.0}, {'type': 'Rock', 'value': 22.0}, {'type': 'Electronic', 'value': 19.0}, {'type': 'Death Metal', 'value': 15.0}, {'type': 'Black Metal', 'value': 12.0}, {'type': 'House', 'value': 10.0}, {'type': 'Indie Rock', 'value': 8.0}, {'type': 'Punk Rock', 'value': 8.0}]"
+5,Italy,1482,ITA,1482,"[{'type': 'Pop', 'value': 55.0}, {'type': 'Italo Disco', 'value': 16.0}, {'type': 'Singer-Songwriter', 'value': 15.0}, {'type': 'Heavy Metal', 'value': 12.0}, {'type': 'Rock', 'value': 11.0}, {'type': 'Electronic', 'value': 9.0}, {'type': 'Progressive Rock', 'value': 9.0}, {'type': 'Eurodance', 'value': 8.0}, {'type': 'Hip Hop', 'value': 7.0}, {'type': 'Italian Folk', 'value': 7.0}]"
+6,France,1308,FRA,1308,"[{'type': 'Chanson', 'value': 26.0}, {'type': 'Singer-Songwriter', 'value': 23.0}, {'type': 'Pop', 'value': 17.0}, {'type': 'Electronic', 'value': 17.0}, {'type': 'Hip Hop', 'value': 16.0}, {'type': 'Rock', 'value': 13.0}, {'type': 'Black Metal', 'value': 9.0}, {'type': 'Electro', 'value': 8.0}, {'type': 'Death Metal', 'value': 5.0}, {'type': 'Folk', 'value': 5.0}]"
+7,Australia,1097,AUS,1097,"[{'type': 'Rock', 'value': 31.0}, {'type': 'Alternative Rock', 'value': 26.0}, {'type': 'Pop', 'value': 23.0}, {'type': 'Indie Rock', 'value': 12.0}, {'type': 'Deathcore', 'value': 11.0}, {'type': 'Death Metal', 'value': 8.0}, {'type': 'Electronic', 'value': 8.0}, {'type': 'Indie Pop', 'value': 6.0}, {'type': 'Hard Rock', 'value': 5.0}, {'type': 'Folk', 'value': 5.0}]"
+8,Brazil,884,BRA,884,"[{'type': 'Singer-Songwriter', 'value': 197.0}, {'type': 'Brazilian', 'value': 57.0}, {'type': 'MPB', 'value': 35.0}, {'type': 'Pop Rock', 'value': 25.0}, {'type': 'Funk Melody', 'value': 23.0}, {'type': 'Sertanejo', 'value': 15.0}, {'type': 'Pop', 'value': 11.0}, {'type': 'Rock', 'value': 11.0}, {'type': 'Pagode', 'value': 10.0}, {'type': 'Axé', 'value': 9.0}]"
+9,Finland,870,FIN,870,"[{'type': 'Hip Hop', 'value': 76.0}, {'type': 'Pop', 'value': 15.0}, {'type': 'Heavy Metal', 'value': 12.0}, {'type': 'Rock', 'value': 7.0}, {'type': 'Alternative Rock', 'value': 7.0}, {'type': 'Melodic Death Metal', 'value': 6.0}, {'type': 'Gothic Metal', 'value': 6.0}, {'type': 'Black Metal', 'value': 5.0}, {'type': 'Power Metal', 'value': 4.0}, {'type': 'Death Metal', 'value': 4.0}]"
+10,The Netherlands,865,NLD,865,"[{'type': 'Pop', 'value': 31.0}, {'type': 'Singer-Songwriter', 'value': 8.0}, {'type': 'Hip Hop', 'value': 8.0}, {'type': 'Symphonic Metal', 'value': 7.0}, {'type': 'Electronic', 'value': 7.0}, {'type': 'Trance', 'value': 7.0}, {'type': 'Progressive Rock', 'value': 6.0}, {'type': 'Jazz', 'value': 5.0}, {'type': 'Punk Rock', 'value': 4.0}, {'type': 'Indie Rock', 'value': 4.0}]"
+11,Spain,841,ESP,841,"[{'type': 'Rock', 'value': 17.0}, {'type': 'Pop', 'value': 15.0}, {'type': 'Hip Hop', 'value': 10.0}, {'type': 'Punk Rock', 'value': 7.0}, {'type': 'Flamenco', 'value': 7.0}, {'type': 'Heavy Metal', 'value': 7.0}, {'type': 'Hard Rock', 'value': 5.0}, {'type': 'Folk', 'value': 5.0}, {'type': 'Latin', 'value': 4.0}, {'type': 'Singer-Songwriter', 'value': 3.0}]"
+12,Japan,710,JPN,710,"[{'type': 'J-Pop', 'value': 61.0}, {'type': 'J-Rock', 'value': 19.0}, {'type': 'Rock', 'value': 14.0}, {'type': 'Alternative Rock', 'value': 10.0}, {'type': 'Heavy Metal', 'value': 6.0}, {'type': 'Pop', 'value': 5.0}, {'type': 'Techno', 'value': 3.0}, {'type': 'Jazz', 'value': 3.0}, {'type': 'Gothic Rock', 'value': 3.0}, {'type': 'Punk Rock', 'value': 2.0}]"
+13,Mexico,611,MEX,611,"[{'type': 'Pop', 'value': 16.0}, {'type': 'Rock', 'value': 10.0}, {'type': 'Latin Pop', 'value': 9.0}, {'type': 'Latin', 'value': 6.0}, {'type': 'Alternative Rock', 'value': 5.0}, {'type': ""Children's Music"", 'value': 5.0}, {'type': 'Norteño', 'value': 5.0}, {'type': 'Banda', 'value': 4.0}, {'type': 'Aggrotech', 'value': 4.0}, {'type': 'Soundtrack', 'value': 3.0}]"
+14,Poland,559,POL,559,"[{'type': 'Hip Hop', 'value': 15.0}, {'type': 'Pop', 'value': 13.0}, {'type': 'Rock', 'value': 11.0}, {'type': 'Heavy Metal', 'value': 7.0}, {'type': 'Gothic Metal', 'value': 7.0}, {'type': 'Black Metal', 'value': 6.0}, {'type': 'Progressive Rock', 'value': 4.0}, {'type': 'Synthpop', 'value': 4.0}, {'type': 'Death Metal', 'value': 4.0}, {'type': 'House', 'value': 2.0}]"
+15,Norway,537,NOR,537,"[{'type': 'Pop', 'value': 17.0}, {'type': 'Black Metal', 'value': 15.0}, {'type': 'Rock', 'value': 9.0}, {'type': 'Folk', 'value': 7.0}, {'type': 'Heavy Metal', 'value': 6.0}, {'type': 'Gothic Metal', 'value': 5.0}, {'type': 'Progressive Metal', 'value': 5.0}, {'type': 'Electronic', 'value': 5.0}, {'type': 'Avant-garde Metal', 'value': 4.0}, {'type': 'Synthpop', 'value': 4.0}]"
+16,Argentina,442,ARG,442,"[{'type': 'Rock', 'value': 21.0}, {'type': 'Reggae', 'value': 7.0}, {'type': 'Hard Rock', 'value': 4.0}, {'type': 'Latin Rock', 'value': 4.0}, {'type': 'Punk Rock', 'value': 3.0}, {'type': 'Singer-Songwriter', 'value': 3.0}, {'type': 'Heavy Metal', 'value': 3.0}, {'type': 'Ska', 'value': 2.0}, {'type': 'Hardcore Punk', 'value': 2.0}, {'type': 'Pop', 'value': 2.0}]"
+17,Belgium,373,BEL,373,"[{'type': 'Pop', 'value': 11.0}, {'type': 'EBM', 'value': 4.0}, {'type': 'Singer-Songwriter', 'value': 4.0}, {'type': 'Alternative Rock', 'value': 4.0}, {'type': 'Industrial', 'value': 3.0}, {'type': 'Folk', 'value': 3.0}, {'type': 'House', 'value': 3.0}, {'type': 'Rock', 'value': 2.0}, {'type': 'Eurodance', 'value': 2.0}, {'type': 'Hip Hop', 'value': 2.0}]"
+18,Denmark,364,DNK,364,"[{'type': 'Pop', 'value': 15.0}, {'type': 'Rock', 'value': 12.0}, {'type': 'Indie Pop', 'value': 5.0}, {'type': 'Hip Hop', 'value': 5.0}, {'type': 'Electronic', 'value': 4.0}, {'type': 'Black Metal', 'value': 4.0}, {'type': 'Heavy Metal', 'value': 3.0}, {'type': 'Alternative Rock', 'value': 2.0}, {'type': 'Industrial', 'value': 2.0}, {'type': 'EDM', 'value': 2.0}]"
+19,Scotland,354,GBR,354,"[{'type': 'Folk', 'value': 16.0}, {'type': 'Rock', 'value': 14.0}, {'type': 'Pop', 'value': 13.0}, {'type': 'Alternative Rock', 'value': 12.0}, {'type': 'Indie Rock', 'value': 6.0}, {'type': 'Singer-Songwriter', 'value': 5.0}, {'type': 'New Wave', 'value': 5.0}, {'type': 'Celtic', 'value': 4.0}, {'type': 'Folk Rock', 'value': 4.0}, {'type': 'Indie Pop', 'value': 4.0}]"
+20,Russia,301,RUS,301,"[{'type': 'Hip Hop', 'value': 6.0}, {'type': 'Pop', 'value': 4.0}, {'type': 'Rock', 'value': 3.0}, {'type': 'Electronic', 'value': 3.0}, {'type': 'Black Metal', 'value': 2.0}, {'type': 'Pagan Metal', 'value': 2.0}, {'type': 'Country', 'value': 2.0}, {'type': 'Chanson', 'value': 2.0}, {'type': 'Neofolk', 'value': 2.0}, {'type': 'Death Metal', 'value': 1.0}]"
+21,Turkey,297,TUR,297,"[{'type': 'Pop', 'value': 5.0}, {'type': 'Folk', 'value': 4.0}, {'type': 'Singer-Songwriter', 'value': 2.0}, {'type': 'Death Metal', 'value': 2.0}, {'type': 'Gothic Metal', 'value': 2.0}, {'type': 'Thrash Metal', 'value': 2.0}, {'type': 'Progressive Metal', 'value': 1.0}, {'type': 'Crossover Thrash', 'value': 1.0}, {'type': 'Blues', 'value': 1.0}, {'type': 'Symphonic Metal', 'value': 1.0}]"
+22,Austria,290,AUT,290,"[{'type': 'Singer-Songwriter', 'value': 20.0}, {'type': 'Chanson', 'value': 9.0}, {'type': 'Schlager', 'value': 7.0}, {'type': 'Rock', 'value': 5.0}, {'type': 'Electronic', 'value': 4.0}, {'type': 'Black Metal', 'value': 4.0}, {'type': 'Deep House', 'value': 3.0}, {'type': 'Acoustic', 'value': 3.0}, {'type': 'Heavy Metal', 'value': 3.0}, {'type': 'Drum And Bass', 'value': 2.0}]"
+23,Ireland,284,IRL,284,"[{'type': 'Celtic', 'value': 13.0}, {'type': 'Pop', 'value': 13.0}, {'type': 'Rock', 'value': 7.0}, {'type': 'Folk', 'value': 7.0}, {'type': 'Alternative Rock', 'value': 5.0}, {'type': 'Blues Rock', 'value': 3.0}, {'type': 'Art Rock', 'value': 3.0}, {'type': 'Indie Rock', 'value': 3.0}, {'type': 'Black Metal', 'value': 2.0}, {'type': 'Irish Folk', 'value': 2.0}]"
+24,Portugal,233,PRT,233,"[{'type': 'Singer-Songwriter', 'value': 12.0}, {'type': 'Pop', 'value': 9.0}, {'type': 'Rock', 'value': 7.0}, {'type': 'Alternative Rock', 'value': 5.0}, {'type': 'Pop Rock', 'value': 3.0}, {'type': 'Hip Hop', 'value': 3.0}, {'type': 'Fado', 'value': 1.0}, {'type': 'Electronic', 'value': 1.0}, {'type': 'Black Metal', 'value': 1.0}, {'type': 'Punk Rock', 'value': 1.0}]"
+25,Switzerland,209,CHE,209,"[{'type': 'Singer-Songwriter', 'value': 11.0}, {'type': 'Pop', 'value': 7.0}, {'type': 'Electronic', 'value': 4.0}, {'type': 'Heavy Metal', 'value': 4.0}, {'type': 'Hip Hop', 'value': 3.0}, {'type': 'Hard Rock', 'value': 3.0}, {'type': 'Rock', 'value': 3.0}, {'type': 'Chanson', 'value': 3.0}, {'type': 'New Wave', 'value': 2.0}, {'type': 'Britpop', 'value': 2.0}]"
+26,New Zealand,197,NZL,197,"[{'type': 'Rock', 'value': 7.0}, {'type': 'Pop', 'value': 6.0}, {'type': 'Christian Rock', 'value': 5.0}, {'type': 'Indie Rock', 'value': 4.0}, {'type': 'Hip Hop', 'value': 2.0}, {'type': 'Hard Rock', 'value': 2.0}, {'type': 'Indie Pop', 'value': 1.0}, {'type': 'Glam Rock', 'value': 1.0}, {'type': 'Metalcore', 'value': 1.0}, {'type': 'Funk Metal', 'value': 1.0}]"
+27,India,192,IND,192,"[{'type': 'Pop', 'value': 4.0}, {'type': 'Jazz Fusion', 'value': 2.0}, {'type': 'Rock', 'value': 1.0}, {'type': 'Singer-Songwriter', 'value': 1.0}, {'type': 'Blues', 'value': 1.0}, {'type': 'Alternative Rock', 'value': 1.0}, {'type': 'Hindustani Classical', 'value': 1.0}, {'type': 'Progressive Metal', 'value': 1.0}, {'type': 'Soundtrack', 'value': 1.0}, {'type': 'Bhangra', 'value': 1.0}]"
+28,Jamaica,189,JAM,189,"[{'type': 'Reggae', 'value': 24.0}, {'type': 'Dancehall', 'value': 3.0}, {'type': 'Soul', 'value': 2.0}, {'type': 'Ska', 'value': 1.0}, {'type': 'Funk', 'value': 1.0}, {'type': 'Pop', 'value': 1.0}, {'type': 'Pop Rock', 'value': 1.0}, {'type': 'Singer-Songwriter', 'value': 1.0}, {'type': 'New Age', 'value': 1.0}, {'type': 'Neue Deutsche Härte', 'value': 0.0}]"
+29,Multinational,183,29,183,"[{'type': 'Pop', 'value': 16.0}, {'type': 'Rock', 'value': 14.0}, {'type': 'Electronic', 'value': 5.0}, {'type': 'Singer-Songwriter', 'value': 3.0}, {'type': 'Blues', 'value': 3.0}, {'type': 'House', 'value': 3.0}, {'type': 'Classical', 'value': 2.0}, {'type': 'Hard Rock', 'value': 2.0}, {'type': 'Art Rock', 'value': 2.0}, {'type': 'Heavy Metal', 'value': 2.0}]"
+30,Chile,173,CHL,173,"[{'type': 'Latin', 'value': 3.0}, {'type': 'Pop', 'value': 2.0}, {'type': 'Singer-Songwriter', 'value': 2.0}, {'type': 'Folk', 'value': 2.0}, {'type': 'Rock', 'value': 1.0}, {'type': 'Electronic', 'value': 1.0}, {'type': 'Speed Metal', 'value': 1.0}, {'type': 'Andean Music', 'value': 1.0}, {'type': 'Bolero', 'value': 1.0}, {'type': 'Alternative Rock', 'value': 1.0}]"
+31,United Kingdom,165,GBR,165,"[{'type': 'Rock', 'value': 6.0}, {'type': 'Glam Rock', 'value': 2.0}, {'type': 'Indie Pop', 'value': 2.0}, {'type': 'Disco', 'value': 2.0}, {'type': 'Gothic Rock', 'value': 1.0}, {'type': ""Rock 'N' Roll\u200e"", 'value': 1.0}, {'type': 'Dubstep', 'value': 1.0}, {'type': 'Breakcore', 'value': 1.0}, {'type': 'Pop Rock', 'value': 1.0}, {'type': 'Dance', 'value': 1.0}]"
+32,Philippines,160,PHL,160,"[{'type': 'Pop', 'value': 7.0}, {'type': 'Rock', 'value': 2.0}, {'type': 'Hip Hop', 'value': 1.0}, {'type': 'Contemporary Christian', 'value': 1.0}, {'type': 'Singer-Songwriter', 'value': 1.0}, {'type': 'Nintendocore', 'value': 0.0}, {'type': 'Nu-Disco', 'value': 0.0}, {'type': 'Nu Metal', 'value': 0.0}, {'type': 'Nu Jazz', 'value': 0.0}, {'type': 'Novelty', 'value': 0.0}]"
+33,Puerto Rico,155,PRI,155,"[{'type': 'Reggaeton', 'value': 9.0}, {'type': 'Hip Hop', 'value': 4.0}, {'type': 'Salsa', 'value': 4.0}, {'type': 'Singer-Songwriter', 'value': 4.0}, {'type': 'Latin Pop', 'value': 2.0}, {'type': 'Latin', 'value': 1.0}, {'type': 'Pop', 'value': 1.0}, {'type': 'Contemporary Christian', 'value': 1.0}, {'type': 'R\\u0026B', 'value': 1.0}, {'type': 'Doom Metal', 'value': 1.0}]"
+34,Czech Republic,154,CZE,154,"[{'type': 'Hip Hop', 'value': 3.0}, {'type': 'Black Metal', 'value': 2.0}, {'type': 'Thrash Metal', 'value': 2.0}, {'type': 'Power Metal', 'value': 1.0}, {'type': 'Singer-Songwriter', 'value': 1.0}, {'type': 'Medieval', 'value': 1.0}, {'type': 'Funk', 'value': 1.0}, {'type': 'Doom Metal', 'value': 1.0}, {'type': 'Pop Rock', 'value': 1.0}, {'type': 'Alternative Rock', 'value': 1.0}]"
+35,South Africa,146,ZAF,146,"[{'type': 'World Music', 'value': 5.0}, {'type': 'Rock', 'value': 4.0}, {'type': 'Christian Rock', 'value': 4.0}, {'type': 'Hip Hop', 'value': 2.0}, {'type': 'Pop', 'value': 2.0}, {'type': 'Alternative Rock', 'value': 2.0}, {'type': 'Pop Rock', 'value': 1.0}, {'type': 'Groove Metal', 'value': 1.0}, {'type': 'R\\u0026B', 'value': 1.0}, {'type': 'Gothic Rock', 'value': 1.0}]"
+36,Hungary,140,HUN,140,"[{'type': 'Alternative Rock', 'value': 3.0}, {'type': 'Rock', 'value': 2.0}, {'type': 'Progressive Metal', 'value': 2.0}, {'type': 'Hard Rock', 'value': 1.0}, {'type': 'Punk Rock', 'value': 1.0}, {'type': 'Electropop', 'value': 1.0}, {'type': 'Jazz', 'value': 1.0}, {'type': 'Psychedelic Rock', 'value': 1.0}, {'type': 'Black Metal', 'value': 1.0}, {'type': 'Gothic Metal', 'value': 1.0}]"
+37,Wales,123,GBR,123,"[{'type': 'Alternative Rock', 'value': 5.0}, {'type': 'Rock', 'value': 5.0}, {'type': 'Indie Pop', 'value': 4.0}, {'type': 'Post-Hardcore', 'value': 3.0}, {'type': 'Pop', 'value': 3.0}, {'type': 'Heavy Metal', 'value': 2.0}, {'type': 'Hard Rock', 'value': 2.0}, {'type': 'Christian Rock', 'value': 1.0}, {'type': 'New Wave', 'value': 1.0}, {'type': 'Anarcho-Punk', 'value': 1.0}]"
+38,Greece,123,GRC,123,"[{'type': 'Black Metal', 'value': 4.0}, {'type': 'EBM', 'value': 2.0}, {'type': 'Neofolk', 'value': 2.0}, {'type': 'Hip Hop', 'value': 2.0}, {'type': 'Pop Rock', 'value': 1.0}, {'type': 'Rock', 'value': 1.0}, {'type': 'Electro', 'value': 1.0}, {'type': 'Electronic', 'value': 1.0}, {'type': 'Melodic Death Metal', 'value': 1.0}, {'type': 'Speed Metal', 'value': 1.0}]"
+39,Romania,119,ROU,119,"[{'type': 'Pop', 'value': 6.0}, {'type': 'Hip Hop', 'value': 4.0}, {'type': 'Heavy Metal', 'value': 2.0}, {'type': 'Dance', 'value': 2.0}, {'type': 'Death Metal', 'value': 2.0}, {'type': 'Alternative Rock', 'value': 2.0}, {'type': 'Trance', 'value': 1.0}, {'type': 'Indie Rock', 'value': 1.0}, {'type': 'Progressive Rock', 'value': 1.0}, {'type': 'Blues Rock', 'value': 1.0}]"
+40,Colombia,118,COL,118,"[{'type': 'Rock', 'value': 2.0}, {'type': 'Death Metal', 'value': 2.0}, {'type': 'Classical', 'value': 1.0}, {'type': 'Heavy Metal', 'value': 1.0}, {'type': 'Electronic', 'value': 1.0}, {'type': 'Pop', 'value': 1.0}, {'type': 'Ballad', 'value': 1.0}, {'type': 'Alternative Rock', 'value': 1.0}, {'type': 'Latin Pop', 'value': 1.0}, {'type': 'Neoclassical', 'value': 0.0}]"
+41,South Korea,114,41,114,"[{'type': 'K-Pop', 'value': 11.0}, {'type': 'Pop', 'value': 4.0}, {'type': 'J-Pop', 'value': 3.0}, {'type': 'Hip Hop', 'value': 2.0}, {'type': 'Christian Rock', 'value': 1.0}, {'type': 'Dance', 'value': 1.0}, {'type': 'Indie Pop', 'value': 1.0}, {'type': 'Norteño\u200e', 'value': 0.0}, {'type': 'Noise', 'value': 0.0}, {'type': 'Noise Pop', 'value': 0.0}]"
+42,Indonesia,105,IDN,105,"[{'type': 'Pop', 'value': 4.0}, {'type': 'Rock', 'value': 1.0}, {'type': 'World Music', 'value': 1.0}, {'type': 'Hip Hop', 'value': 1.0}, {'type': 'Avant-garde Metal', 'value': 1.0}, {'type': 'Death Metal', 'value': 1.0}, {'type': 'Nu Jazz', 'value': 1.0}, {'type': 'Alternative Rock', 'value': 1.0}, {'type': 'Pop Rock', 'value': 1.0}, {'type': 'Christian', 'value': 1.0}]"
+43,Israel,104,ISR,104,"[{'type': 'Pop', 'value': 7.0}, {'type': 'Folk', 'value': 3.0}, {'type': 'Progressive Rock', 'value': 2.0}, {'type': 'Soundtrack', 'value': 1.0}, {'type': 'Electronica', 'value': 1.0}, {'type': 'Psychedelic Trance', 'value': 1.0}, {'type': 'Dubstep', 'value': 1.0}, {'type': 'Synthpop', 'value': 1.0}, {'type': 'Singer-Songwriter', 'value': 1.0}, {'type': 'Black Metal', 'value': 1.0}]"
+44,Serbia,103,SRB,103,"[{'type': 'Punk Rock', 'value': 2.0}, {'type': 'Progressive Rock', 'value': 1.0}, {'type': 'Power Metal', 'value': 1.0}, {'type': 'Hip Hop', 'value': 1.0}, {'type': 'Nu Metal', 'value': 1.0}, {'type': 'Rock', 'value': 1.0}, {'type': 'Heavy Metal', 'value': 1.0}, {'type': 'Folk', 'value': 1.0}, {'type': 'Schlager', 'value': 1.0}, {'type': 'Progressive Metal', 'value': 1.0}]"
+45,Lithuania,89,LTU,89,"[{'type': 'Rock', 'value': 3.0}, {'type': 'Pop', 'value': 3.0}, {'type': 'Electronica', 'value': 2.0}, {'type': 'Death Metal', 'value': 1.0}, {'type': 'Gothic Rock', 'value': 1.0}, {'type': 'Art Rock', 'value': 1.0}, {'type': 'Sung Poetry', 'value': 1.0}, {'type': 'Electronic', 'value': 1.0}, {'type': 'Deep House', 'value': 1.0}, {'type': 'Nu Metal', 'value': 0.0}]"
+46,Iceland,84,ISL,84,"[{'type': 'Indie Folk', 'value': 2.0}, {'type': 'Pop', 'value': 2.0}, {'type': 'Folk', 'value': 1.0}, {'type': 'Alternative Rock', 'value': 1.0}, {'type': 'Ballad', 'value': 1.0}, {'type': 'Reggae', 'value': 1.0}, {'type': 'Electronica', 'value': 1.0}, {'type': 'Dream Pop', 'value': 1.0}, {'type': 'Ambient', 'value': 1.0}, {'type': 'Anarcho-Punk', 'value': 1.0}]"
+47,Croatia,76,HRV,76,"[{'type': 'Pop', 'value': 2.0}, {'type': 'Singer-Songwriter', 'value': 2.0}, {'type': 'Italo Disco', 'value': 1.0}, {'type': 'Rock', 'value': 1.0}, {'type': 'World Music', 'value': 1.0}, {'type': 'Technical Death Metal', 'value': 1.0}, {'type': 'Death Metal', 'value': 1.0}, {'type': 'Pop Punk', 'value': 1.0}, {'type': 'Noise Pop', 'value': 0.0}, {'type': 'Nintendocore', 'value': 0.0}]"
+48,Northern Ireland,75,GBR,75,"[{'type': 'Pop', 'value': 3.0}, {'type': 'Blues', 'value': 3.0}, {'type': 'Indie Pop', 'value': 2.0}, {'type': 'Alternative Rock', 'value': 2.0}, {'type': 'Acoustic', 'value': 2.0}, {'type': 'Heavy Metal', 'value': 1.0}, {'type': 'Christian', 'value': 1.0}, {'type': 'Rock', 'value': 1.0}, {'type': 'Alternative Metal', 'value': 1.0}, {'type': 'Christian Rock', 'value': 1.0}]"
+49,Venezuela,74,VEN,74,"[{'type': 'Black Metal', 'value': 1.0}, {'type': 'Ballad', 'value': 1.0}, {'type': 'Progressive Metal', 'value': 1.0}, {'type': 'Nu Metal', 'value': 1.0}, {'type': 'Salsa', 'value': 1.0}, {'type': 'Rock', 'value': 1.0}, {'type': 'Nintendocore', 'value': 0.0}, {'type': 'Nu-Disco', 'value': 0.0}, {'type': 'Nu Jazz', 'value': 0.0}, {'type': 'Novelty', 'value': 0.0}]"
+50,Ukraine,66,UKR,66,"[{'type': 'Rock', 'value': 2.0}, {'type': 'Black Metal', 'value': 2.0}, {'type': 'Gothic Metal', 'value': 1.0}, {'type': 'Eurodance', 'value': 1.0}, {'type': 'Metalcore', 'value': 1.0}, {'type': 'Electronic', 'value': 1.0}, {'type': 'Noha', 'value': 0.0}, {'type': 'Nu-Disco', 'value': 0.0}, {'type': 'Nu Metal', 'value': 0.0}, {'type': 'Nu Jazz', 'value': 0.0}]"
+51,Estonia,65,EST,65,"[{'type': 'Pop', 'value': 4.0}, {'type': 'Indie Rock', 'value': 1.0}, {'type': 'Pop Rock', 'value': 1.0}, {'type': 'Folk Rock', 'value': 1.0}, {'type': 'Alternative Rock', 'value': 1.0}, {'type': 'Folk', 'value': 1.0}, {'type': 'Death Metal', 'value': 1.0}, {'type': 'Nu Jazz', 'value': 0.0}, {'type': 'Nu Metal', 'value': 0.0}, {'type': 'Novelty', 'value': 0.0}]"
+52,Slovakia,62,SVK,62,"[{'type': 'Pop', 'value': 1.0}, {'type': 'Progressive Metal', 'value': 1.0}, {'type': 'Chanson', 'value': 1.0}, {'type': '2-tone', 'value': 0.0}, {'type': 'Nu-Disco', 'value': 0.0}, {'type': 'Nu Metal', 'value': 0.0}, {'type': 'Nu Jazz', 'value': 0.0}, {'type': 'Novelty', 'value': 0.0}, {'type': 'Norteño\u200e', 'value': 0.0}, {'type': 'Norteño', 'value': 0.0}]"
+53,Cuba,61,CUB,61,"[{'type': 'Latin', 'value': 3.0}, {'type': 'Pop', 'value': 3.0}, {'type': 'Trova', 'value': 2.0}, {'type': 'Latin Pop', 'value': 2.0}, {'type': 'Hip Hop', 'value': 1.0}, {'type': 'Son Cubano\u200e', 'value': 1.0}, {'type': 'Blues', 'value': 1.0}, {'type': 'Jazz', 'value': 1.0}, {'type': 'Noise Rock', 'value': 0.0}, {'type': 'Noise Pop', 'value': 0.0}]"
+54,Malaysia,56,MYS,56,"[{'type': 'Hard Rock', 'value': 2.0}, {'type': 'Pop', 'value': 2.0}, {'type': 'Alternative Rock', 'value': 1.0}, {'type': 'Worship', 'value': 1.0}, {'type': 'Punk Rock', 'value': 1.0}, {'type': 'Noise Pop', 'value': 0.0}, {'type': 'Nintendocore', 'value': 0.0}, {'type': 'Noha', 'value': 0.0}, {'type': 'Noise', 'value': 0.0}, {'type': 'Norteño', 'value': 0.0}]"
+55,Uruguay,54,URY,54,"[{'type': 'Rock', 'value': 6.0}, {'type': 'Punk Rock', 'value': 3.0}, {'type': 'Hard Rock', 'value': 2.0}, {'type': 'Pop', 'value': 1.0}, {'type': 'Jazz', 'value': 1.0}, {'type': 'Candombe', 'value': 1.0}, {'type': 'Hip Hop', 'value': 1.0}, {'type': 'Nu Jazz', 'value': 0.0}, {'type': 'Novelty', 'value': 0.0}, {'type': 'Norteño\u200e', 'value': 0.0}]"
+56,Peru,53,PER,53,"[{'type': 'Rock', 'value': 2.0}, {'type': 'Cumbia', 'value': 1.0}, {'type': 'Pop Rock', 'value': 1.0}, {'type': 'Latin', 'value': 1.0}, {'type': '2-tone', 'value': 0.0}, {'type': 'Noha', 'value': 0.0}, {'type': 'Nueva canción', 'value': 0.0}, {'type': 'Nu-Disco', 'value': 0.0}, {'type': 'Nu Metal', 'value': 0.0}, {'type': 'Nu Jazz', 'value': 0.0}]"
+57,Dominican Republic,46,DOM,46,"[{'type': 'Latin Pop', 'value': 1.0}, {'type': 'Comedy', 'value': 1.0}, {'type': '2-tone', 'value': 0.0}, {'type': 'Old-time Music', 'value': 0.0}, {'type': 'Nueva canción', 'value': 0.0}, {'type': 'Nu-Disco', 'value': 0.0}, {'type': 'Nu Metal', 'value': 0.0}, {'type': 'Nu Jazz', 'value': 0.0}, {'type': 'Novelty', 'value': 0.0}, {'type': 'Norteño\u200e', 'value': 0.0}]"
+58,Vietnam,42,VNM,42,"[{'type': 'Heavy Metal', 'value': 1.0}, {'type': '2-tone', 'value': 0.0}, {'type': 'New Wave', 'value': 0.0}, {'type': 'Nueva canción', 'value': 0.0}, {'type': 'Nu-Disco', 'value': 0.0}, {'type': 'Nu Metal', 'value': 0.0}, {'type': 'Nu Jazz', 'value': 0.0}, {'type': 'Novelty', 'value': 0.0}, {'type': 'Norteño\u200e', 'value': 0.0}, {'type': 'Norteño', 'value': 0.0}]"
+59,Albania,37,ALB,37,"[{'type': 'R\\u0026B', 'value': 1.0}, {'type': '2-tone', 'value': 0.0}, {'type': 'Nintendocore', 'value': 0.0}, {'type': 'Nueva canción', 'value': 0.0}, {'type': 'Nu-Disco', 'value': 0.0}, {'type': 'Nu Metal', 'value': 0.0}, {'type': 'Nu Jazz', 'value': 0.0}, {'type': 'Novelty', 'value': 0.0}, {'type': 'Norteño\u200e', 'value': 0.0}, {'type': 'Norteño', 'value': 0.0}]"
+60,Latvia,36,LVA,36,"[{'type': 'Rock', 'value': 2.0}, {'type': 'Ambient', 'value': 1.0}, {'type': 'Folk Metal', 'value': 1.0}, {'type': 'Electronic', 'value': 1.0}, {'type': 'Pop', 'value': 1.0}, {'type': 'Schlager', 'value': 1.0}, {'type': '2-tone', 'value': 0.0}, {'type': 'Nu Metal', 'value': 0.0}, {'type': 'Nu Jazz', 'value': 0.0}, {'type': 'Novelty', 'value': 0.0}]"
+61,Slovenia,33,SVN,33,"[{'type': 'Pop', 'value': 1.0}, {'type': 'Industrial', 'value': 1.0}, {'type': 'Industrial Metal', 'value': 1.0}, {'type': '2-tone', 'value': 0.0}, {'type': 'Nueva canción', 'value': 0.0}, {'type': 'Nu-Disco', 'value': 0.0}, {'type': 'Nu Metal', 'value': 0.0}, {'type': 'Nu Jazz', 'value': 0.0}, {'type': 'Novelty', 'value': 0.0}, {'type': 'Norteño\u200e', 'value': 0.0}]"
+62,Bosnia and Herzegovina,33,BIH,33,"[{'type': 'Pop', 'value': 2.0}, {'type': 'Rock', 'value': 2.0}, {'type': 'Power Metal', 'value': 1.0}, {'type': 'Rap Rock', 'value': 1.0}, {'type': '2-tone', 'value': 0.0}, {'type': 'Nintendocore', 'value': 0.0}, {'type': 'Nu-Disco', 'value': 0.0}, {'type': 'Nu Metal', 'value': 0.0}, {'type': 'Nu Jazz', 'value': 0.0}, {'type': 'Novelty', 'value': 0.0}]"
+63,Singapore,33,SGP,33,"[{'type': 'Rock', 'value': 1.0}, {'type': 'Dance', 'value': 1.0}, {'type': 'Death Metal', 'value': 1.0}, {'type': 'Indie Rock', 'value': 1.0}, {'type': 'Pop', 'value': 1.0}, {'type': 'Nu-Disco', 'value': 0.0}, {'type': 'Nu Metal', 'value': 0.0}, {'type': 'Nueva canción', 'value': 0.0}, {'type': 'Noha', 'value': 0.0}, {'type': 'Novelty', 'value': 0.0}]"
+64,Iran,32,IRN,32,"[{'type': 'Comedy', 'value': 1.0}, {'type': 'Pop Rock', 'value': 1.0}, {'type': 'New Wave', 'value': 1.0}, {'type': 'Rock', 'value': 1.0}, {'type': 'Persian', 'value': 1.0}, {'type': 'Persian Traditional', 'value': 1.0}, {'type': 'Country Rock', 'value': 1.0}, {'type': 'Pop', 'value': 1.0}, {'type': 'Pop Punk', 'value': 1.0}, {'type': 'Nasheed', 'value': 1.0}]"
+65,Pakistan,29,PAK,29,"[{'type': 'Pop', 'value': 2.0}, {'type': 'Rock', 'value': 1.0}, {'type': 'Electronica', 'value': 1.0}, {'type': 'Soul', 'value': 1.0}, {'type': 'Classical', 'value': 1.0}, {'type': 'Nu-Disco', 'value': 0.0}, {'type': 'Nu Metal', 'value': 0.0}, {'type': 'Nu Jazz', 'value': 0.0}, {'type': 'Novelty', 'value': 0.0}, {'type': 'Norteño\u200e', 'value': 0.0}]"
+66,Belarus,28,BLR,28,"[{'type': 'Black Metal', 'value': 1.0}, {'type': 'Thrash Metal', 'value': 1.0}, {'type': 'Pop Rock', 'value': 1.0}, {'type': 'New Rave', 'value': 0.0}, {'type': 'Nu-Disco', 'value': 0.0}, {'type': 'Nu Metal', 'value': 0.0}, {'type': 'Nu Jazz', 'value': 0.0}, {'type': 'Novelty', 'value': 0.0}, {'type': 'Norteño\u200e', 'value': 0.0}, {'type': 'Norteño', 'value': 0.0}]"
+67,Panama,27,PAN,27,"[{'type': 'Salsa', 'value': 2.0}, {'type': 'Pop', 'value': 1.0}, {'type': 'Reggae', 'value': 1.0}, {'type': 'Heavy Metal', 'value': 1.0}, {'type': 'Big Band', 'value': 1.0}, {'type': 'New Wave', 'value': 0.0}, {'type': 'Nu Metal', 'value': 0.0}, {'type': 'Nu Jazz', 'value': 0.0}, {'type': 'Novelty', 'value': 0.0}, {'type': 'Norteño\u200e', 'value': 0.0}]"
+68,Malta,25,MLT,25,[]
+69,Bulgaria,23,BGR,23,"[{'type': 'Folk', 'value': 2.0}, {'type': 'Death Metal', 'value': 1.0}, {'type': '2-tone', 'value': 0.0}, {'type': 'New Wave', 'value': 0.0}, {'type': 'Nueva canción', 'value': 0.0}, {'type': 'Nu-Disco', 'value': 0.0}, {'type': 'Nu Metal', 'value': 0.0}, {'type': 'Nu Jazz', 'value': 0.0}, {'type': 'Novelty', 'value': 0.0}, {'type': 'Norteño\u200e', 'value': 0.0}]"
+70,Costa Rica,21,CRI,21,"[{'type': 'Progressive Metal', 'value': 1.0}, {'type': '2-tone', 'value': 0.0}, {'type': 'New Wave', 'value': 0.0}, {'type': 'Nueva canción', 'value': 0.0}, {'type': 'Nu-Disco', 'value': 0.0}, {'type': 'Nu Metal', 'value': 0.0}, {'type': 'Nu Jazz', 'value': 0.0}, {'type': 'Novelty', 'value': 0.0}, {'type': 'Norteño\u200e', 'value': 0.0}, {'type': 'Norteño', 'value': 0.0}]"
+71,Egypt,19,EGY,19,"[{'type': 'Singer-Songwriter', 'value': 2.0}, {'type': 'Chanson', 'value': 2.0}, {'type': 'Disco', 'value': 1.0}, {'type': 'Schlager', 'value': 1.0}, {'type': 'Pop', 'value': 1.0}, {'type': '2-tone', 'value': 0.0}, {'type': 'Nu Metal', 'value': 0.0}, {'type': 'Nu Jazz', 'value': 0.0}, {'type': 'Novelty', 'value': 0.0}, {'type': 'Norteño\u200e', 'value': 0.0}]"
+72,Moldova,19,MDA,19,"[{'type': 'Eurodance', 'value': 1.0}, {'type': '2-tone', 'value': 0.0}, {'type': 'New Wave', 'value': 0.0}, {'type': 'Nueva canción', 'value': 0.0}, {'type': 'Nu-Disco', 'value': 0.0}, {'type': 'Nu Metal', 'value': 0.0}, {'type': 'Nu Jazz', 'value': 0.0}, {'type': 'Novelty', 'value': 0.0}, {'type': 'Norteño\u200e', 'value': 0.0}, {'type': 'Norteño', 'value': 0.0}]"
+73,Trinidad and Tobago,18,TTO,18,"[{'type': 'Calypso', 'value': 3.0}, {'type': 'R\\u0026B', 'value': 2.0}, {'type': 'Pop', 'value': 1.0}, {'type': 'Contemporary Christian', 'value': 1.0}, {'type': 'Nintendocore', 'value': 0.0}, {'type': 'Nueva canción', 'value': 0.0}, {'type': 'Nu-Disco', 'value': 0.0}, {'type': 'Nu Metal', 'value': 0.0}, {'type': 'Nu Jazz', 'value': 0.0}, {'type': 'Novelty', 'value': 0.0}]"
+74,Nigeria,17,NGA,17,"[{'type': 'Afrobeat', 'value': 2.0}, {'type': 'Hip Hop', 'value': 1.0}, {'type': 'Reggae Fusion', 'value': 1.0}, {'type': 'Blues', 'value': 1.0}, {'type': '2-tone', 'value': 0.0}, {'type': 'Norteño\u200e', 'value': 0.0}, {'type': 'Noise', 'value': 0.0}, {'type': 'Noise Pop', 'value': 0.0}, {'type': 'Noise Rock', 'value': 0.0}, {'type': 'Norteño', 'value': 0.0}]"
+75,Ecuador,17,ECU,17,"[{'type': 'Latin', 'value': 1.0}, {'type': 'Rock', 'value': 1.0}, {'type': 'Nintendocore', 'value': 0.0}, {'type': 'Nueva canción', 'value': 0.0}, {'type': 'Nu-Disco', 'value': 0.0}, {'type': 'Nu Metal', 'value': 0.0}, {'type': 'Nu Jazz', 'value': 0.0}, {'type': 'Novelty', 'value': 0.0}, {'type': 'Norteño\u200e', 'value': 0.0}, {'type': 'Norteño', 'value': 0.0}]"
+76,Bolivia,16,BOL,16,"[{'type': 'Alternative Rock', 'value': 1.0}, {'type': 'Black Metal', 'value': 1.0}, {'type': 'Rock', 'value': 1.0}, {'type': '2-tone', 'value': 0.0}, {'type': 'Nueva canción', 'value': 0.0}, {'type': 'Nu-Disco', 'value': 0.0}, {'type': 'Nu Metal', 'value': 0.0}, {'type': 'Nu Jazz', 'value': 0.0}, {'type': 'Novelty', 'value': 0.0}, {'type': 'Norteño\u200e', 'value': 0.0}]"
+77,Lebanon,16,LBN,16,"[{'type': 'Pop', 'value': 1.0}, {'type': 'Blues', 'value': 1.0}, {'type': 'Italo Disco', 'value': 1.0}, {'type': 'Rock', 'value': 1.0}, {'type': 'Neo Soul', 'value': 0.0}, {'type': 'Nintendocore', 'value': 0.0}, {'type': 'Nueva canción', 'value': 0.0}, {'type': 'Nu-Disco', 'value': 0.0}, {'type': 'Nu Metal', 'value': 0.0}, {'type': 'Nu Jazz', 'value': 0.0}]"
+78,Taiwan,15,TWN,15,"[{'type': 'Mandopop', 'value': 2.0}, {'type': 'Hip Hop', 'value': 1.0}, {'type': 'Power Metal', 'value': 1.0}, {'type': 'Rock', 'value': 1.0}, {'type': 'Trance', 'value': 1.0}, {'type': '2-tone', 'value': 0.0}, {'type': 'Nintendocore', 'value': 0.0}, {'type': 'Nu Metal', 'value': 0.0}, {'type': 'Nu Jazz', 'value': 0.0}, {'type': 'Novelty', 'value': 0.0}]"
+79,Luxembourg,13,LUX,13,"[{'type': 'Dark Ambient', 'value': 1.0}, {'type': 'Symphonic Metal', 'value': 1.0}, {'type': 'Symphonic Black Metal', 'value': 1.0}, {'type': 'Musical', 'value': 0.0}, {'type': 'Nu-Disco', 'value': 0.0}, {'type': 'Nu Metal', 'value': 0.0}, {'type': 'Nu Jazz', 'value': 0.0}, {'type': 'Novelty', 'value': 0.0}, {'type': 'Norteño\u200e', 'value': 0.0}, {'type': 'Norteño', 'value': 0.0}]"
+80,Morocco,13,MAR,13,"[{'type': 'Heavy Metal', 'value': 1.0}, {'type': 'Singer-Songwriter', 'value': 1.0}, {'type': '2-tone', 'value': 0.0}, {'type': 'New Rave', 'value': 0.0}, {'type': 'Nu-Disco', 'value': 0.0}, {'type': 'Nu Metal', 'value': 0.0}, {'type': 'Nu Jazz', 'value': 0.0}, {'type': 'Novelty', 'value': 0.0}, {'type': 'Norteño\u200e', 'value': 0.0}, {'type': 'Norteño', 'value': 0.0}]"
+81,Faroe Islands,12,FRO,12,"[{'type': 'Folk Metal', 'value': 1.0}, {'type': 'Indie Rock', 'value': 1.0}, {'type': '2-tone', 'value': 0.0}, {'type': 'New Wave', 'value': 0.0}, {'type': 'Nueva canción', 'value': 0.0}, {'type': 'Nu-Disco', 'value': 0.0}, {'type': 'Nu Metal', 'value': 0.0}, {'type': 'Nu Jazz', 'value': 0.0}, {'type': 'Novelty', 'value': 0.0}, {'type': 'Norteño\u200e', 'value': 0.0}]"
+82,Hong Kong,12,HKG,12,"[{'type': 'Cantopop', 'value': 1.0}, {'type': '2-tone', 'value': 0.0}, {'type': 'New Wave', 'value': 0.0}, {'type': 'Nueva canción', 'value': 0.0}, {'type': 'Nu-Disco', 'value': 0.0}, {'type': 'Nu Metal', 'value': 0.0}, {'type': 'Nu Jazz', 'value': 0.0}, {'type': 'Novelty', 'value': 0.0}, {'type': 'Norteño\u200e', 'value': 0.0}, {'type': 'Norteño', 'value': 0.0}]"
+83,China,11,CHN,11,"[{'type': 'Chanson', 'value': 1.0}, {'type': '2-tone', 'value': 0.0}, {'type': 'Nintendocore', 'value': 0.0}, {'type': 'Nueva canción', 'value': 0.0}, {'type': 'Nu-Disco', 'value': 0.0}, {'type': 'Nu Metal', 'value': 0.0}, {'type': 'Nu Jazz', 'value': 0.0}, {'type': 'Novelty', 'value': 0.0}, {'type': 'Norteño\u200e', 'value': 0.0}, {'type': 'Norteño', 'value': 0.0}]"
+84,Thailand,11,THA,11,"[{'type': 'R\\u0026B', 'value': 1.0}, {'type': '2-tone', 'value': 0.0}, {'type': 'Nintendocore', 'value': 0.0}, {'type': 'Nueva canción', 'value': 0.0}, {'type': 'Nu-Disco', 'value': 0.0}, {'type': 'Nu Metal', 'value': 0.0}, {'type': 'Nu Jazz', 'value': 0.0}, {'type': 'Novelty', 'value': 0.0}, {'type': 'Norteño\u200e', 'value': 0.0}, {'type': 'Norteño', 'value': 0.0}]"
+85,Barbados,10,BRB,10,"[{'type': 'Hip Hop', 'value': 2.0}, {'type': '2-tone', 'value': 0.0}, {'type': 'New Wave', 'value': 0.0}, {'type': 'Nueva canción', 'value': 0.0}, {'type': 'Nu-Disco', 'value': 0.0}, {'type': 'Nu Metal', 'value': 0.0}, {'type': 'Nu Jazz', 'value': 0.0}, {'type': 'Novelty', 'value': 0.0}, {'type': 'Norteño\u200e', 'value': 0.0}, {'type': 'Norteño', 'value': 0.0}]"
+86,Guatemala,9,GTM,9,"[{'type': 'Latin Pop', 'value': 1.0}, {'type': 'Heavy Metal', 'value': 1.0}, {'type': '2-tone', 'value': 0.0}, {'type': 'Nintendocore', 'value': 0.0}, {'type': 'Nueva canción', 'value': 0.0}, {'type': 'Nu-Disco', 'value': 0.0}, {'type': 'Nu Metal', 'value': 0.0}, {'type': 'Nu Jazz', 'value': 0.0}, {'type': 'Novelty', 'value': 0.0}, {'type': 'Norteño\u200e', 'value': 0.0}]"
+87,Algeria,8,DZA,8,[]
+88,Azerbaijan,8,AZE,8,"[{'type': 'Pop', 'value': 2.0}, {'type': '2-tone', 'value': 0.0}, {'type': 'Nu-Disco', 'value': 0.0}, {'type': 'Nu Metal', 'value': 0.0}, {'type': 'Nu Jazz', 'value': 0.0}, {'type': 'Novelty', 'value': 0.0}, {'type': 'Norteño\u200e', 'value': 0.0}, {'type': 'Norteño', 'value': 0.0}, {'type': 'Noise Rock', 'value': 0.0}, {'type': 'Noise Pop', 'value': 0.0}]"
+89,Mali,8,MLI,8,"[{'type': 'Rock', 'value': 1.0}, {'type': 'Folk', 'value': 1.0}, {'type': 'Pop', 'value': 1.0}, {'type': 'New Rave', 'value': 0.0}, {'type': 'Nu-Disco', 'value': 0.0}, {'type': 'Nu Metal', 'value': 0.0}, {'type': 'Nu Jazz', 'value': 0.0}, {'type': 'Novelty', 'value': 0.0}, {'type': 'Norteño\u200e', 'value': 0.0}, {'type': 'Norteño', 'value': 0.0}]"
+90,Macedonia,8,MKD,8,"[{'type': 'Punk Rock', 'value': 2.0}, {'type': '2-tone', 'value': 0.0}, {'type': 'Nintendocore', 'value': 0.0}, {'type': 'Nueva canción', 'value': 0.0}, {'type': 'Nu-Disco', 'value': 0.0}, {'type': 'Nu Metal', 'value': 0.0}, {'type': 'Nu Jazz', 'value': 0.0}, {'type': 'Novelty', 'value': 0.0}, {'type': 'Norteño\u200e', 'value': 0.0}, {'type': 'Norteño', 'value': 0.0}]"
+91,Senegal,8,SEN,8,"[{'type': 'World Music', 'value': 1.0}, {'type': 'Mbalax', 'value': 1.0}, {'type': '2-tone', 'value': 0.0}, {'type': 'Nintendocore', 'value': 0.0}, {'type': 'Nueva canción', 'value': 0.0}, {'type': 'Nu-Disco', 'value': 0.0}, {'type': 'Nu Metal', 'value': 0.0}, {'type': 'Nu Jazz', 'value': 0.0}, {'type': 'Novelty', 'value': 0.0}, {'type': 'Norteño\u200e', 'value': 0.0}]"
+92,Paraguay,7,PRY,7,"[{'type': 'Reggae', 'value': 2.0}, {'type': 'Brazilian', 'value': 1.0}, {'type': '2-tone', 'value': 0.0}, {'type': 'Nintendocore', 'value': 0.0}, {'type': 'Nueva canción', 'value': 0.0}, {'type': 'Nu-Disco', 'value': 0.0}, {'type': 'Nu Metal', 'value': 0.0}, {'type': 'Nu Jazz', 'value': 0.0}, {'type': 'Novelty', 'value': 0.0}, {'type': 'Norteño\u200e', 'value': 0.0}]"
+93,Cameroon,7,CMR,7,"[{'type': 'World Music', 'value': 1.0}, {'type': 'Singer-Songwriter', 'value': 1.0}, {'type': 'Funk', 'value': 1.0}, {'type': '2-tone', 'value': 0.0}, {'type': 'New Rave', 'value': 0.0}, {'type': 'Nu Metal', 'value': 0.0}, {'type': 'Nu Jazz', 'value': 0.0}, {'type': 'Novelty', 'value': 0.0}, {'type': 'Norteño\u200e', 'value': 0.0}, {'type': 'Norteño', 'value': 0.0}]"
+94,Montenegro,7,MNE,7,"[{'type': 'Singer-Songwriter', 'value': 1.0}, {'type': '2-tone', 'value': 0.0}, {'type': 'New Wave', 'value': 0.0}, {'type': 'Nueva canción', 'value': 0.0}, {'type': 'Nu-Disco', 'value': 0.0}, {'type': 'Nu Metal', 'value': 0.0}, {'type': 'Nu Jazz', 'value': 0.0}, {'type': 'Novelty', 'value': 0.0}, {'type': 'Norteño\u200e', 'value': 0.0}, {'type': 'Norteño', 'value': 0.0}]"
+95,Cyprus,7,CYP,7,"[{'type': 'Rock', 'value': 1.0}, {'type': 'Pop', 'value': 1.0}, {'type': 'Nueva canción', 'value': 0.0}, {'type': 'Nu-Disco', 'value': 0.0}, {'type': 'Nu Metal', 'value': 0.0}, {'type': 'Nu Jazz', 'value': 0.0}, {'type': 'Novelty', 'value': 0.0}, {'type': 'Norteño\u200e', 'value': 0.0}, {'type': 'Norteño', 'value': 0.0}, {'type': 'Noise Rock', 'value': 0.0}]"
+96,Georgia,7,GEO,7,"[{'type': 'Alternative Rock', 'value': 1.0}, {'type': 'Acoustic', 'value': 1.0}, {'type': '2-tone', 'value': 0.0}, {'type': 'Oi-Punk', 'value': 0.0}, {'type': 'Nueva canción', 'value': 0.0}, {'type': 'Nu-Disco', 'value': 0.0}, {'type': 'Nu Metal', 'value': 0.0}, {'type': 'Nu Jazz', 'value': 0.0}, {'type': 'Novelty', 'value': 0.0}, {'type': 'Norteño\u200e', 'value': 0.0}]"
+97,Guadeloupe,7,FRA,7,"[{'type': 'Zouk', 'value': 1.0}, {'type': 'Folk', 'value': 1.0}, {'type': 'New Rave', 'value': 0.0}, {'type': 'Nu-Disco', 'value': 0.0}, {'type': 'Nu Metal', 'value': 0.0}, {'type': 'Nu Jazz', 'value': 0.0}, {'type': 'Novelty', 'value': 0.0}, {'type': 'Norteño\u200e', 'value': 0.0}, {'type': 'Norteño', 'value': 0.0}, {'type': 'Noise Rock', 'value': 0.0}]"
+98,Democratic Republic of the Congo,7,98,7,"[{'type': 'Hip Hop', 'value': 1.0}, {'type': '2-tone', 'value': 0.0}, {'type': 'New Wave', 'value': 0.0}, {'type': 'Nueva canción', 'value': 0.0}, {'type': 'Nu-Disco', 'value': 0.0}, {'type': 'Nu Metal', 'value': 0.0}, {'type': 'Nu Jazz', 'value': 0.0}, {'type': 'Novelty', 'value': 0.0}, {'type': 'Norteño\u200e', 'value': 0.0}, {'type': 'Norteño', 'value': 0.0}]"
+99,Tunisia,7,TUN,7,"[{'type': 'Pop', 'value': 1.0}, {'type': '2-tone', 'value': 0.0}, {'type': 'Nu-Disco', 'value': 0.0}, {'type': 'Nu Metal', 'value': 0.0}, {'type': 'Nu Jazz', 'value': 0.0}, {'type': 'Novelty', 'value': 0.0}, {'type': 'Norteño\u200e', 'value': 0.0}, {'type': 'Norteño', 'value': 0.0}, {'type': 'Noise Rock', 'value': 0.0}, {'type': 'Noise Pop', 'value': 0.0}]"
+100,Syria,6,SYR,6,"[{'type': 'Hardcore Punk', 'value': 1.0}, {'type': '2-tone', 'value': 0.0}, {'type': 'New Wave', 'value': 0.0}, {'type': 'Nueva canción', 'value': 0.0}, {'type': 'Nu-Disco', 'value': 0.0}, {'type': 'Nu Metal', 'value': 0.0}, {'type': 'Nu Jazz', 'value': 0.0}, {'type': 'Novelty', 'value': 0.0}, {'type': 'Norteño\u200e', 'value': 0.0}, {'type': 'Norteño', 'value': 0.0}]"
+101,Isle of Man,6,IMN,6,"[{'type': 'Pop', 'value': 1.0}, {'type': 'Classical', 'value': 1.0}, {'type': 'Singer-Songwriter', 'value': 1.0}, {'type': 'New Wave', 'value': 0.0}, {'type': 'Nu-Disco', 'value': 0.0}, {'type': 'Nu Metal', 'value': 0.0}, {'type': 'Nu Jazz', 'value': 0.0}, {'type': 'Novelty', 'value': 0.0}, {'type': 'Norteño\u200e', 'value': 0.0}, {'type': 'Norteño', 'value': 0.0}]"
+102,Tanzania,6,TZA,6,"[{'type': 'Rock', 'value': 1.0}, {'type': 'Gospel', 'value': 1.0}, {'type': 'Eurodance', 'value': 1.0}, {'type': '2-tone', 'value': 0.0}, {'type': 'Nintendocore', 'value': 0.0}, {'type': 'Nu-Disco', 'value': 0.0}, {'type': 'Nu Metal', 'value': 0.0}, {'type': 'Nu Jazz', 'value': 0.0}, {'type': 'Novelty', 'value': 0.0}, {'type': 'Norteño\u200e', 'value': 0.0}]"
+103,Republic of Kosovo,6,103,6,[]
+104,Armenia,6,ARM,6,"[{'type': 'Schlager', 'value': 1.0}, {'type': '2-tone', 'value': 0.0}, {'type': 'Nintendocore', 'value': 0.0}, {'type': 'Nueva canción', 'value': 0.0}, {'type': 'Nu-Disco', 'value': 0.0}, {'type': 'Nu Metal', 'value': 0.0}, {'type': 'Nu Jazz', 'value': 0.0}, {'type': 'Novelty', 'value': 0.0}, {'type': 'Norteño\u200e', 'value': 0.0}, {'type': 'Norteño', 'value': 0.0}]"
+105,Uganda,6,UGA,6,"[{'type': 'Dancehall', 'value': 1.0}, {'type': 'Nintendocore', 'value': 0.0}, {'type': 'Oi-Punk', 'value': 0.0}, {'type': 'Nueva canción', 'value': 0.0}, {'type': 'Nu-Disco', 'value': 0.0}, {'type': 'Nu Metal', 'value': 0.0}, {'type': 'Nu Jazz', 'value': 0.0}, {'type': 'Novelty', 'value': 0.0}, {'type': 'Norteño\u200e', 'value': 0.0}, {'type': 'Norteño', 'value': 0.0}]"
+106,Bangladesh,6,BGD,6,"[{'type': 'Folk', 'value': 1.0}, {'type': 'Hard Rock', 'value': 1.0}, {'type': '2-tone', 'value': 0.0}, {'type': 'New Wave', 'value': 0.0}, {'type': 'Nueva canción', 'value': 0.0}, {'type': 'Nu-Disco', 'value': 0.0}, {'type': 'Nu Metal', 'value': 0.0}, {'type': 'Nu Jazz', 'value': 0.0}, {'type': 'Novelty', 'value': 0.0}, {'type': 'Norteño\u200e', 'value': 0.0}]"
+107,Angola,6,AGO,6,[]
+108,The Bahamas,6,BHS,6,"[{'type': 'Pop', 'value': 1.0}, {'type': 'World Music', 'value': 1.0}, {'type': 'Calypso', 'value': 1.0}, {'type': '2-tone', 'value': 0.0}, {'type': 'Nu-Disco', 'value': 0.0}, {'type': 'Nu Metal', 'value': 0.0}, {'type': 'Nu Jazz', 'value': 0.0}, {'type': 'Novelty', 'value': 0.0}, {'type': 'Norteño\u200e', 'value': 0.0}, {'type': 'Norteño', 'value': 0.0}]"
+109,Monaco,6,MCO,6,"[{'type': 'Singer-Songwriter', 'value': 1.0}, {'type': '2-tone', 'value': 0.0}, {'type': 'New Wave', 'value': 0.0}, {'type': 'Nueva canción', 'value': 0.0}, {'type': 'Nu-Disco', 'value': 0.0}, {'type': 'Nu Metal', 'value': 0.0}, {'type': 'Nu Jazz', 'value': 0.0}, {'type': 'Novelty', 'value': 0.0}, {'type': 'Norteño\u200e', 'value': 0.0}, {'type': 'Norteño', 'value': 0.0}]"
+110,Suriname,5,SUR,5,"[{'type': 'Schlager', 'value': 1.0}, {'type': '2-tone', 'value': 0.0}, {'type': 'Nintendocore', 'value': 0.0}, {'type': 'Nueva canción', 'value': 0.0}, {'type': 'Nu-Disco', 'value': 0.0}, {'type': 'Nu Metal', 'value': 0.0}, {'type': 'Nu Jazz', 'value': 0.0}, {'type': 'Novelty', 'value': 0.0}, {'type': 'Norteño\u200e', 'value': 0.0}, {'type': 'Norteño', 'value': 0.0}]"
+111,Guyana,5,GUY,5,"[{'type': '2-tone', 'value': 1.0}, {'type': 'Dance', 'value': 1.0}, {'type': 'New Wave', 'value': 0.0}, {'type': 'Nueva canción', 'value': 0.0}, {'type': 'Nu-Disco', 'value': 0.0}, {'type': 'Nu Metal', 'value': 0.0}, {'type': 'Nu Jazz', 'value': 0.0}, {'type': 'Novelty', 'value': 0.0}, {'type': 'Norteño\u200e', 'value': 0.0}, {'type': 'Norteño', 'value': 0.0}]"
+112,Nicaragua,5,NIC,5,[]
+113,Jordan,4,JOR,4,"[{'type': 'Drum And Bass', 'value': 1.0}, {'type': '2-tone', 'value': 0.0}, {'type': 'Nintendocore', 'value': 0.0}, {'type': 'Nueva canción', 'value': 0.0}, {'type': 'Nu-Disco', 'value': 0.0}, {'type': 'Nu Metal', 'value': 0.0}, {'type': 'Nu Jazz', 'value': 0.0}, {'type': 'Novelty', 'value': 0.0}, {'type': 'Norteño\u200e', 'value': 0.0}, {'type': 'Norteño', 'value': 0.0}]"
+114,Iraq,4,IRQ,4,[]
+115,Côte d'Ivoire,4,CIV,4,"[{'type': 'Reggae', 'value': 1.0}, {'type': '2-tone', 'value': 0.0}, {'type': 'Nintendocore', 'value': 0.0}, {'type': 'Nueva canción', 'value': 0.0}, {'type': 'Nu-Disco', 'value': 0.0}, {'type': 'Nu Metal', 'value': 0.0}, {'type': 'Nu Jazz', 'value': 0.0}, {'type': 'Novelty', 'value': 0.0}, {'type': 'Norteño\u200e', 'value': 0.0}, {'type': 'Norteño', 'value': 0.0}]"
+116,Martinique,4,MTQ,4,"[{'type': 'Zouk', 'value': 1.0}, {'type': 'Reggae', 'value': 1.0}, {'type': 'Nintendocore', 'value': 0.0}, {'type': 'Nueva canción', 'value': 0.0}, {'type': 'Nu-Disco', 'value': 0.0}, {'type': 'Nu Metal', 'value': 0.0}, {'type': 'Nu Jazz', 'value': 0.0}, {'type': 'Novelty', 'value': 0.0}, {'type': 'Norteño\u200e', 'value': 0.0}, {'type': 'Norteño', 'value': 0.0}]"
+117,Honduras,4,HND,4,[]
+118,Cape Verde,4,118,4,"[{'type': 'Morna', 'value': 1.0}, {'type': 'Singer-Songwriter', 'value': 1.0}, {'type': '2-tone', 'value': 0.0}, {'type': 'New Wave', 'value': 0.0}, {'type': 'Nu-Disco', 'value': 0.0}, {'type': 'Nu Metal', 'value': 0.0}, {'type': 'Nu Jazz', 'value': 0.0}, {'type': 'Novelty', 'value': 0.0}, {'type': 'Norteño\u200e', 'value': 0.0}, {'type': 'Norteño', 'value': 0.0}]"
+119,Bermuda,3,BMU,3,"[{'type': 'Alternative Rock', 'value': 1.0}, {'type': 'Reggae', 'value': 1.0}, {'type': 'Calypso', 'value': 1.0}, {'type': '2-tone', 'value': 0.0}, {'type': 'Nueva canción', 'value': 0.0}, {'type': 'Nu-Disco', 'value': 0.0}, {'type': 'Nu Metal', 'value': 0.0}, {'type': 'Nu Jazz', 'value': 0.0}, {'type': 'Novelty', 'value': 0.0}, {'type': 'Norteño\u200e', 'value': 0.0}]"
+120,Nepal,3,NPL,3,[]
+121,Ghana,3,GHA,3,[]
+122,Zambia,3,ZMB,3,"[{'type': 'Pop', 'value': 1.0}, {'type': '2-tone', 'value': 0.0}, {'type': 'Nu-Disco', 'value': 0.0}, {'type': 'Nu Metal', 'value': 0.0}, {'type': 'Nu Jazz', 'value': 0.0}, {'type': 'Novelty', 'value': 0.0}, {'type': 'Norteño\u200e', 'value': 0.0}, {'type': 'Norteño', 'value': 0.0}, {'type': 'Noise Rock', 'value': 0.0}, {'type': 'Noise Pop', 'value': 0.0}]"
+123,Bahrain,3,BHR,3,[]
+124,Libya,3,LBY,3,"[{'type': 'EDM', 'value': 1.0}, {'type': 'Italian Folk', 'value': 1.0}, {'type': '2-tone', 'value': 0.0}, {'type': 'Old-time Music', 'value': 0.0}, {'type': 'Nueva canción', 'value': 0.0}, {'type': 'Nu-Disco', 'value': 0.0}, {'type': 'Nu Metal', 'value': 0.0}, {'type': 'Nu Jazz', 'value': 0.0}, {'type': 'Novelty', 'value': 0.0}, {'type': 'Norteño\u200e', 'value': 0.0}]"
+125,Haiti,3,HTI,3,"[{'type': 'House', 'value': 1.0}, {'type': 'Hip Hop', 'value': 1.0}, {'type': 'Kompa', 'value': 1.0}, {'type': 'Power Pop', 'value': 0.0}, {'type': 'Power Metal', 'value': 0.0}, {'type': 'Nueva canción', 'value': 0.0}, {'type': 'Nu-Disco', 'value': 0.0}, {'type': 'Nu Metal', 'value': 0.0}, {'type': 'Nu Jazz', 'value': 0.0}, {'type': 'Novelty', 'value': 0.0}]"
+126,Gibraltar,3,GIB,3,[]
+127,United States Virgin Islands,3,127,3,[]
+128,Zimbabwe,3,ZWE,3,[]
+129,Netherlands Antilles,3,129,3,"[{'type': 'Eurodance', 'value': 1.0}, {'type': '2-tone', 'value': 0.0}, {'type': 'New Wave', 'value': 0.0}, {'type': 'Nueva canción', 'value': 0.0}, {'type': 'Nu-Disco', 'value': 0.0}, {'type': 'Nu Metal', 'value': 0.0}, {'type': 'Nu Jazz', 'value': 0.0}, {'type': 'Novelty', 'value': 0.0}, {'type': 'Norteño\u200e', 'value': 0.0}, {'type': 'Norteño', 'value': 0.0}]"
+130,Réunion,3,REU,3,[]
+131,Namibia,2,NAM,2,[]
+132,Greenland,2,GRL,2,[]
+133,Liechtenstein,2,LIE,2,"[{'type': 'Gothic Metal', 'value': 2.0}, {'type': '2-tone', 'value': 0.0}, {'type': 'Old-time Music', 'value': 0.0}, {'type': 'Nueva canción', 'value': 0.0}, {'type': 'Nu-Disco', 'value': 0.0}, {'type': 'Nu Metal', 'value': 0.0}, {'type': 'Nu Jazz', 'value': 0.0}, {'type': 'Novelty', 'value': 0.0}, {'type': 'Norteño\u200e', 'value': 0.0}, {'type': 'Norteño', 'value': 0.0}]"
+134,Uzbekistan,2,UZB,2,[]
+135,Grenada,2,GRD,2,[]
+136,Saint Lucia,2,LCA,2,"[{'type': ""Rock 'N' Roll"", 'value': 1.0}, {'type': 'Reggae', 'value': 1.0}, {'type': '2-tone', 'value': 0.0}, {'type': 'Nintendocore', 'value': 0.0}, {'type': 'Nu-Disco', 'value': 0.0}, {'type': 'Nu Metal', 'value': 0.0}, {'type': 'Nu Jazz', 'value': 0.0}, {'type': 'Novelty', 'value': 0.0}, {'type': 'Norteño\u200e', 'value': 0.0}, {'type': 'Norteño', 'value': 0.0}]"
+137,Jersey,2,JEY,2,"[{'type': 'House', 'value': 1.0}, {'type': 'New Wave', 'value': 0.0}, {'type': 'Nueva canción', 'value': 0.0}, {'type': 'Nu-Disco', 'value': 0.0}, {'type': 'Nu Metal', 'value': 0.0}, {'type': 'Nu Jazz', 'value': 0.0}, {'type': 'Novelty', 'value': 0.0}, {'type': 'Norteño\u200e', 'value': 0.0}, {'type': 'Norteño', 'value': 0.0}, {'type': 'Noise Rock', 'value': 0.0}]"
+138,Madagascar,2,MDG,2,[]
+139,Mozambique,2,MOZ,2,[]
+140,Kazakhstan,2,KAZ,2,[]
+141,Guinea,2,GIN,2,"[{'type': 'Singer-Songwriter', 'value': 1.0}, {'type': '2-tone', 'value': 0.0}, {'type': 'New Wave', 'value': 0.0}, {'type': 'Nueva canción', 'value': 0.0}, {'type': 'Nu-Disco', 'value': 0.0}, {'type': 'Nu Metal', 'value': 0.0}, {'type': 'Nu Jazz', 'value': 0.0}, {'type': 'Novelty', 'value': 0.0}, {'type': 'Norteño\u200e', 'value': 0.0}, {'type': 'Norteño', 'value': 0.0}]"
+142,The Netherlands‎,2,142,2,"[{'type': 'Symphonic Rock', 'value': 1.0}, {'type': 'Progressive Rock', 'value': 1.0}, {'type': '2-tone', 'value': 0.0}, {'type': 'New Wave', 'value': 0.0}, {'type': 'Nu-Disco', 'value': 0.0}, {'type': 'Nu Metal', 'value': 0.0}, {'type': 'Nu Jazz', 'value': 0.0}, {'type': 'Novelty', 'value': 0.0}, {'type': 'Norteño\u200e', 'value': 0.0}, {'type': 'Norteño', 'value': 0.0}]"
+143,Andorra,2,AND,2,"[{'type': 'Punk Rock', 'value': 1.0}, {'type': '2-tone', 'value': 0.0}, {'type': 'Nintendocore', 'value': 0.0}, {'type': 'Nueva canción', 'value': 0.0}, {'type': 'Nu-Disco', 'value': 0.0}, {'type': 'Nu Metal', 'value': 0.0}, {'type': 'Nu Jazz', 'value': 0.0}, {'type': 'Novelty', 'value': 0.0}, {'type': 'Norteño\u200e', 'value': 0.0}, {'type': 'Norteño', 'value': 0.0}]"
+144,United_States,2,144,2,[]
+145,Vatican City,2,VAT,2,[]
+146,Republic of the Congo,2,COG,2,[]
+147,Liberia,2,LBR,2,"[{'type': 'Reggae', 'value': 1.0}, {'type': '2-tone', 'value': 0.0}, {'type': 'Nintendocore', 'value': 0.0}, {'type': 'Nueva canción', 'value': 0.0}, {'type': 'Nu-Disco', 'value': 0.0}, {'type': 'Nu Metal', 'value': 0.0}, {'type': 'Nu Jazz', 'value': 0.0}, {'type': 'Novelty', 'value': 0.0}, {'type': 'Norteño\u200e', 'value': 0.0}, {'type': 'Norteño', 'value': 0.0}]"
+148,Saudi Arabia,2,SAU,2,[]
+149,Belize,2,BLZ,2,[]
+150,Sierra Leone,2,SLE,2,[]
+151,Kenya,2,KEN,2,"[{'type': 'Pop', 'value': 1.0}, {'type': '2-tone', 'value': 0.0}, {'type': 'Nu-Disco', 'value': 0.0}, {'type': 'Nu Metal', 'value': 0.0}, {'type': 'Nu Jazz', 'value': 0.0}, {'type': 'Novelty', 'value': 0.0}, {'type': 'Norteño\u200e', 'value': 0.0}, {'type': 'Norteño', 'value': 0.0}, {'type': 'Noise Rock', 'value': 0.0}, {'type': 'Noise Pop', 'value': 0.0}]"
+152,Ethiopia,2,ETH,2,[]
+153,Montserrat,1,MSR,1,"[{'type': 'Soca', 'value': 1.0}, {'type': 'New Wave', 'value': 0.0}, {'type': 'Nueva canción', 'value': 0.0}, {'type': 'Nu-Disco', 'value': 0.0}, {'type': 'Nu Metal', 'value': 0.0}, {'type': 'Nu Jazz', 'value': 0.0}, {'type': 'Novelty', 'value': 0.0}, {'type': 'Norteño\u200e', 'value': 0.0}, {'type': 'Norteño', 'value': 0.0}, {'type': 'Noise Rock', 'value': 0.0}]"
+154,French Guiana,1,GUF,1,[]
+155,Malawi,1,MWI,1,"[{'type': 'Jazz', 'value': 1.0}, {'type': '2-tone', 'value': 0.0}, {'type': 'Nintendocore', 'value': 0.0}, {'type': 'Nueva canción', 'value': 0.0}, {'type': 'Nu-Disco', 'value': 0.0}, {'type': 'Nu Metal', 'value': 0.0}, {'type': 'Nu Jazz', 'value': 0.0}, {'type': 'Novelty', 'value': 0.0}, {'type': 'Norteño\u200e', 'value': 0.0}, {'type': 'Norteño', 'value': 0.0}]"
+156,United States,United States,United States,United States,"[{'type': 'Rock', 'value': 470.0}, {'type': 'Blues', 'value': 377.0}, {'type': 'Hip Hop', 'value': 316.0}, {'type': 'Pop', 'value': 305.0}, {'type': 'Alternative Rock', 'value': 299.0}, {'type': 'Country', 'value': 296.0}, {'type': 'Indie Rock', 'value': 270.0}, {'type': 'R\\u0026B', 'value': 186.0}, {'type': 'Folk', 'value': 161.0}, {'type': 'Jazz', 'value': 137.0}]"
+157,Mauritius,1,MUS,1,[]
+158,United Arab Emirates,1,ARE,1,[]
+159,Rwanda,1,RWA,1,[]
+160,Mongolia,1,MNG,1,[]
+161,Sri Lanka,1,LKA,1,[]
+162,Burundi,1,BDI,1,[]
+163,Benin,1,BEN,1,[]
+164,Multinational‎,1,164,1,"[{'type': 'Noise', 'value': 1.0}, {'type': '2-tone', 'value': 0.0}, {'type': 'New Wave', 'value': 0.0}, {'type': 'Nueva canción', 'value': 0.0}, {'type': 'Nu-Disco', 'value': 0.0}, {'type': 'Nu Metal', 'value': 0.0}, {'type': 'Nu Jazz', 'value': 0.0}, {'type': 'Novelty', 'value': 0.0}, {'type': 'Norteño\u200e', 'value': 0.0}, {'type': 'Norteño', 'value': 0.0}]"
+165,Fiji,1,FJI,1,[]
+166,San Marino,1,SMR,1,[]
+167,Dominica,1,DMA,1,[]
+168,Saint Vincent and the Grenadines,1,VCT,1,"[{'type': 'Dancehall', 'value': 1.0}, {'type': 'Nintendocore', 'value': 0.0}, {'type': 'Oi-Punk', 'value': 0.0}, {'type': 'Nueva canción', 'value': 0.0}, {'type': 'Nu-Disco', 'value': 0.0}, {'type': 'Nu Metal', 'value': 0.0}, {'type': 'Nu Jazz', 'value': 0.0}, {'type': 'Novelty', 'value': 0.0}, {'type': 'Norteño\u200e', 'value': 0.0}, {'type': 'Norteño', 'value': 0.0}]"
+169,Oman,1,OMN,1,[]
+170,El Salvador,1,SLV,1,[]
+171,British Virgin Islands,1,VGB,1,[]
+172,Czech Republic‎,1,172,1,[]
+173,The Gambia,1,GMB,1,[]
+174,Kyrgyzstan,1,KGZ,1,[]
