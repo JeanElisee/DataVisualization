@@ -2,117 +2,62 @@
 <meta charset="utf-8">
 <head>
     <title>Number of artist per country</title>
-    <style>
-
-        .names {
-            fill: none;
-            stroke: #fff;
-            stroke-linejoin: round;
-        }
-
-        /* Tooltip CSS */
-        .d3-tip {
-            line-height: 1.5;
-            font-weight: 400;
-            font-family: "avenir next", Arial, sans-serif;
-            padding: 6px;
-            background: rgba(0, 0, 0, 0.6);
-            color: #FFF;
-            border-radius: 1px;
-            pointer-events: none;
-        }
-
-        /* Creates a small triangle extender for the tooltip */
-        .d3-tip:after {
-            box-sizing: border-box;
-            display: inline;
-            font-size: 8px;
-            width: 100%;
-            line-height: 1.5;
-            color: rgba(0, 0, 0, 0.6);
-            position: absolute;
-            pointer-events: none;
-
-        }
-
-        /* Northward tooltips */
-        .d3-tip.n:after {
-            content: "\25BC";
-            margin: -1px 0 0 0;
-            top: 100%;
-            left: 0;
-            text-align: center;
-        }
-
-        /* Eastward tooltips */
-        .d3-tip.e:after {
-            content: "\25C0";
-            margin: -4px 0 0 0;
-            top: 50%;
-            left: -8px;
-        }
-
-        /* Southward tooltips */
-        .d3-tip.s:after {
-            content: "\25B2";
-            margin: 0 0 1px 0;
-            top: -8px;
-            left: 0;
-            text-align: center;
-        }
-
-        /* Westward tooltips */
-        .d3-tip.w:after {
-            content: "\25B6";
-            margin: -4px 0 0 -1px;
-            top: 50%;
-            left: 100%;
-        }
-
-        /*    text{
-              pointer-events:none;
-            }*/
-
-        .details {
-            color: white;
-        }
-
-    </style>
+    <link rel="stylesheet" href="dataviz.css">
+    <link rel="stylesheet" href="style/bootstrap.min.css">
 
     <!-- Load d3.js -->
     <script src="https://d3js.org/d3.v4.js"></script>
     <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
     <script src="https://d3js.org/d3-geo-projection.v2.min.js"></script>
     <script src="https://d3js.org/topojson.v1.min.js"></script>
+    <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+
     <script src="bubble_map.js"></script>
 </head>
 
 <body>
-<form>
-    <select id="select-color" style="position: absolute; top: 40px; left: 100px">
-        <option value="" selected>Select a filter</option>
-        <option value="greater">Number of artists greater than 20</option>
-        <option value="below">Number of artists below 20</option>
-    </select>
+<div class="top">
+    <img src="universite_cote_d_azur.png" alt="Université logo" class="logo">
+</div>
+<script src="dounught.js"></script>
 
-    <!--    <div id="select-color" style="position: absolute; top: 60px; right: 200px">-->
-    <!--        <p>Select a filter:</p>-->
-    <!--        <input type="radio" id="below_20" name="filter" value="below_20">-->
-    <!--        <label for="below_20">Number of artists greater than 20</label><br>-->
-    <!--        <input type="radio" id="greater_20" name="filter" value="greater_20">-->
-    <!--        <label for="greater_20">Number of artists below 20</label><br>-->
-    <!--    </div>-->
-</form>
+<div style="width: 100%">
+    <div style="width: 10%">
+        <svg id="my_dataviz_legend"></svg>
+    </div>
+    <div style="width: 90%">
+        <svg id="my_dataviz"></svg>
+    </div>
+</div>
 
-<!-- Create an element where the map will take place -->
-<svg id="my_dataviz" width="100" height="100"></svg>
+<!--<div class="doughnut">-->
+<!--    <div class="mx-auto col-12 text-center">-->
+<!--        <h5 class="mt-5 mb-0">Repartition of genres for <span id="country_name"></span></h5>-->
+<!--        <div id="pie" class="mt-4 mb-0"></div>-->
+<!--        <div class="legend-pie col-12 mb-2">-->
+
+<!--            <div class="d-inline"><i class="fas fa-circle strongly-like"></i> Strongly like</div>-->
+<!--            <div class="d-inline mx-3"><i class="fas fa-circle like"></i> Like</div>-->
+<!--            <div class="d-md-inline">-->
+<!--                <div class="d-inline mr-3"><i class="fas fa-circle dislike"></i> Dislike</div>-->
+<!--                <div class="d-inline mr-3"><i class="fas fa-circle strongly-dislike"></i> Strongly dislike</div>-->
+<!--                <div class="d-inline"><i class="fas fa-circle unsure"></i> Unsure</div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</div>-->
+<script src="pieChart.js"></script>
 
 <script>
-    var format = d3.format(",");
+    var format = d3.format(",")
+    datasetName_by_year = "https://raw.githubusercontent.com/JeanElisee/test/main/country.csv"
+    datasetName_normal = "country_2.csv"
+    selectedCountry = ""
 
-    var colorSelect = d3.select("#select-color")
+    var colorSelect = d3.select("#select-filter")
         .on("change", function () {
             let colorOption = colorSelect.property('value')
+            console.log(colorOption);
 
             if (!colorOption) {
                 return;
@@ -120,10 +65,13 @@
 
             d3.selectAll('g')
                 .transition()
-                .duration(750)
+                .duration(300)
                 .style('fill', function (d) {
                     console.log(d);
-                    return d;
+
+                    if (colorOption === 'below') {
+                        return d.total > 20 ? "GoldenRod" : "white"
+                    }
                     // if (!d.children) {
                     //     if (colorOption == "greater") {
                     //         return d.data.size > 1000 ? "GoldenRod" : "white"
@@ -183,12 +131,19 @@
         .range(d3.schemeBlues[7]);
 
     // Load external data and boot
-    d3.queue()
-        .defer(d3.json, "https://raw.githubusercontent.com/holtzy/D3-graph-gallery/master/DATA/world.geojson")
-        .defer(d3.csv, "https://raw.githubusercontent.com/JeanElisee/test/main/country.csv", function (d) {
-            data.set(d.id, +d.value);
-        })
-        .await(ready);
+    setDataset(datasetName_normal)
+
+    var dataset = []
+
+    function setDataset(datasetName) {
+        d3.queue()
+            .defer(d3.json, "https://raw.githubusercontent.com/holtzy/D3-graph-gallery/master/DATA/world.geojson")
+            .defer(d3.csv, datasetName, function (d) {
+                dataset.push(d);
+                data.set(d.id, +d.size);
+            })
+            .await(ready);
+    }
 
     function ready(error, topo) {
         // Draw the map
@@ -206,7 +161,7 @@
             .attr("x", (width / 3))
             .attr("y", 70)
             .attr("dy", ".35em")
-            .text("This graph show the repartition of artist per country.");
+            .text("This graph shows the repartition of artist per country.");
 
         svg.append("g")
             .selectAll("path")
@@ -241,18 +196,28 @@
                     .style("opacity", 0.8)
                     .style("stroke", "white")
                     .style("stroke-width", 0.3);
+            })
+            .on("click", function (d) {
+                console.log(d);
+
+                var index = findWithAttr(dataset, 'id', d.id);
+
+                if (index === -1) {
+                    console.log('Not found');
+                    return;
+                }
+
+                selectedCountry = dataset[index];
+                document.getElementById("country_name").innerHTML = selectedCountry.name.toUpperCase();
+                var currentGenres = selectedCountry.genres
+
+                if ((currentGenres && currentGenres.length === 0) || !currentGenres) {
+                    console.log('No genres found');
+                    return;
+                }
+
+                changeData(JSON.parse(currentGenres.replace(/'/g, '"')))
             });
-
-        // svg.append("path")
-        //     .datum(topojson.mesh(data.features, function (a, b) {
-        //         return a.id !== b.id;
-        //     }))
-        //     .datum(topojson.mesh(data.features, function (a, b) {
-        //         return a !== b;
-        //     }))
-        //     .attr("class", "names")
-        //     .attr("d", path);
-
 
         // To handle the cursor movements on the legend
         legend.selectAll()
@@ -272,7 +237,6 @@
             })
             .on("mouseout", function (d) {
                 legend.select("#cursor")
-                    // Change the ID of the path in order to match with the code
                     .style("display", "none");
                 d3.selectAll("path[fill='" + colors[d] + "']")
                     .style('fill', colors[d]);
@@ -284,9 +248,19 @@
             .style("fill", d => colors[d]);
 
         svg.append("g")
-            .data(topo.features)
+            .data([topo.features])
             .attr('transform', 'translate(42, 150)')
             .call(d3.axisRight(legendScale).ticks(7));
+    }
+
+
+    function findWithAttr(array, attr, value) {
+        for (let i = 0; i < array.length; i += 1) {
+            if (array[i][attr] === value) {
+                return i;
+            }
+        }
+        return -1;
     }
 </script>
 </body>
