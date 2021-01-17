@@ -57,6 +57,7 @@
             width: 30%;
             float: left;
             display: inline;
+            margin: 0 auto;
         }
 
         .legend_map {
@@ -203,13 +204,14 @@
                 var index = findWithAttr(dataset, 'id', d.id);
 
                 var previousCountry = selectedCountry;
-                document.getElementById("chart").innerHTML = "";
 
                 if (index === -1) {
                     console.log('Not found');
                     document.getElementById("country_name").innerHTML = "No data collected for " + d.properties.name.toUpperCase();
                     selectedCountry = d.properties;
                     document.getElementById("detail_genres_rep").innerHTML = "";
+                    document.getElementById("chart").innerHTML = "";
+
                     return;
                 }
 
@@ -227,8 +229,7 @@
                     console.log('No genres found');
                     document.getElementById("country_name").innerHTML = "No data collected for " + selectedCountry.name.toUpperCase();
                     document.getElementById("detail_genres_rep").innerHTML = "";
-                    selectedCountry = d.properties;
-
+                    document.getElementById("chart").innerHTML = "";
                     return;
                 }
 
