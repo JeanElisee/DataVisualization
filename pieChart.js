@@ -1,4 +1,3 @@
-//18-24
 var group1 = [
     {
         title: "Strongly",
@@ -31,8 +30,9 @@ var width = 300,
     radius = Math.min(width, height) / 2;
 
 
-var color = d3.scaleOrdinal()
-    .range(d3.schemeBlues[9]);
+var color = d3
+    .scaleOrdinal()
+    .range(d3.schemeBlues[7]);
 
 var pie = d3.pie()
     .value(function (d) {
@@ -74,7 +74,6 @@ g.append("path")
     .attr("stroke", "white")
     .style("stroke-width", "2px")
     .style("opacity", 1);
-;
 
 function changeData(data) {
     var keys = []
@@ -82,6 +81,8 @@ function changeData(data) {
     for (const d in data) {
         keys.push(data[d].title)
     }
+
+    console.log(keys);
 
     var color = d3.scaleOrdinal()
         .domain(keys)
@@ -105,5 +106,4 @@ function changeData(data) {
         .selectAll("path")
         .data(pie); // Compute the new angles
     path.transition().duration(1000).attr("d", arc); // redrawing the path with a smooth transition
-
 }
