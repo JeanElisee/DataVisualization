@@ -2,6 +2,7 @@
 <meta charset="utf-8">
 <head>
     <title>Number of artist per country</title>
+
     <link rel="stylesheet" href="dataviz.css">
     <link rel="stylesheet" href="style/bootstrap.min.css">
 
@@ -10,79 +11,79 @@
     <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
     <script src="https://d3js.org/d3-geo-projection.v2.min.js"></script>
     <script src="https://d3js.org/topojson.v1.min.js"></script>
-    <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
 
-    <script src="bubble_map.js"></script>
+    <script src="tip.js"></script>
+
+
+    <style>
+        .pie {
+            margin: 20px;
+        }
+
+        svg {
+            float: left;
+        }
+
+        .legend {
+            float: left;
+            font-family: "Verdana";
+            font-size: 0.7em;
+        }
+
+        .pie text {
+            font-family: "Verdana";
+            fill: #000;
+        }
+
+        .pie .name-text {
+            font-size: 0.8em;
+        }
+
+        .pie .value-text {
+            font-size: 3em;
+        }
+
+        #chart {
+            display: block;
+        }
+
+        #map {
+            /*background-color: green;*/
+            width: 70%;
+        }
+
+        .doughnut {
+            /*background-color: red;*/
+            width: 30%;
+            float: left;
+            display: inline;
+        }
+
+        .legend_map {
+            position: absolute;
+            left: 10px;
+            top: 550px;
+            z-index: 1;
+            border-radius: 10px;
+            border: 2px solid #000;
+            background-color: #d3d3d3;
+        }
+    </style>
 </head>
 
 <body>
 <div class="top">
     <img src="universite_cote_d_azur.png" alt="Université logo" class="logo">
 </div>
-<script src="dounught.js"></script>
 
-<div style="width: 100%">
-    <div style="width: 10%">
-        <svg id="my_dataviz_legend"></svg>
-    </div>
-    <div style="width: 90%">
-        <svg id="my_dataviz"></svg>
-    </div>
-</div>
-
-<!--<div class="doughnut">-->
-<!--    <div class="mx-auto col-12 text-center">-->
-<!--        <h5 class="mt-5 mb-0">Repartition of genres for <span id="country_name"></span></h5>-->
-<!--        <div id="pie" class="mt-4 mb-0"></div>-->
-<!--        <div class="legend-pie col-12 mb-2">-->
-
-<!--            <div class="d-inline"><i class="fas fa-circle strongly-like"></i> Strongly like</div>-->
-<!--            <div class="d-inline mx-3"><i class="fas fa-circle like"></i> Like</div>-->
-<!--            <div class="d-md-inline">-->
-<!--                <div class="d-inline mr-3"><i class="fas fa-circle dislike"></i> Dislike</div>-->
-<!--                <div class="d-inline mr-3"><i class="fas fa-circle strongly-dislike"></i> Strongly dislike</div>-->
-<!--                <div class="d-inline"><i class="fas fa-circle unsure"></i> Unsure</div>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--    </div>-->
-<!--</div>-->
-<script src="pieChart.js"></script>
+<svg id="my_dataviz3" height=180 width=190 class="legend_map"></svg>
+<div id="map"></div>
 
 <script>
     var format = d3.format(",")
     datasetName_by_year = "https://raw.githubusercontent.com/JeanElisee/test/main/country.csv"
     datasetName_normal = "country_2.csv"
     selectedCountry = ""
-
-    var colorSelect = d3.select("#select-filter")
-        .on("change", function () {
-            let colorOption = colorSelect.property('value')
-            console.log(colorOption);
-
-            if (!colorOption) {
-                return;
-            }
-
-            d3.selectAll('g')
-                .transition()
-                .duration(300)
-                .style('fill', function (d) {
-                    console.log(d);
-
-                    if (colorOption === 'below') {
-                        return d.total > 20 ? "GoldenRod" : "white"
-                    }
-                    // if (!d.children) {
-                    //     if (colorOption == "greater") {
-                    //         return d.data.size > 1000 ? "GoldenRod" : "white"
-                    //     } else {
-                    //         return d.data.name.startsWith('A') ? "LightCoral" : "white"
-                    //     }
-                    // } else {
-                    //     return "null"
-                    // }
-                })
-        })
 
     // Set tooltips
     var tip = d3.tip()
@@ -99,7 +100,7 @@
         width = 960 - margin.left - margin.right,
         height = 500 - margin.top - margin.bottom;
 
-    var svg = d3.select("body")
+    var svg = d3.select("#map")
         .append("svg")
         .attr("width", width)
         .attr("height", height)
@@ -121,13 +122,10 @@
     const legendCellSize = 25,
         colors = d3.schemeBlues[7];
 
-    var legendScale = d3.scaleLinear().domain([0, 20000])
-        .range([0, colors.length * legendCellSize]);
-
     // Data and color scale
     var data = d3.map();
     var colorScale = d3.scaleThreshold()
-        .domain([1, 20, 100, 1000, 7000, 50000])
+        .domain([1, 20, 500, 1000, 5000, 20000])
         .range(d3.schemeBlues[7]);
 
     // Load external data and boot
@@ -135,9 +133,12 @@
 
     var dataset = []
 
+    // create a list of keys
+    var keys = ["0", "1 to 20", "21 to 500", "501 to 1000", "1001 to 5000", "Greater than 5000"]
+
     function setDataset(datasetName) {
         d3.queue()
-            .defer(d3.json, "https://raw.githubusercontent.com/holtzy/D3-graph-gallery/master/DATA/world.geojson")
+            .defer(d3.json, "world.geojson")
             .defer(d3.csv, datasetName, function (d) {
                 dataset.push(d);
                 data.set(d.id, +d.size);
@@ -209,6 +210,7 @@
 
                 selectedCountry = dataset[index];
                 document.getElementById("country_name").innerHTML = selectedCountry.name.toUpperCase();
+
                 var currentGenres = selectedCountry.genres
 
                 if ((currentGenres && currentGenres.length === 0) || !currentGenres) {
@@ -216,41 +218,65 @@
                     return;
                 }
 
+                console.log(currentGenres);
+
                 changeData(JSON.parse(currentGenres.replace(/'/g, '"')))
             });
 
-        // To handle the cursor movements on the legend
-        legend.selectAll()
-            .data(d3.range(colors.length))
-            .enter().append('svg:rect')
-            .attr('height', legendCellSize + 'px')
-            .attr('width', legendCellSize + 'px')
-            .attr('x', 5)
-            .attr('y', d => d * legendCellSize)
-            .style("fill", d => colors[d])
+        // select the svg area
+        var SVG = d3.select("#my_dataviz3")
+
+        // Usually you have a color scale in your chart already
+        var color = d3.scaleOrdinal()
+            .domain(keys)
+            .range(d3.schemeBlues[6]);
+
+        // Add one dot in the legend for each name.
+        var size = 20
+        SVG.selectAll("mydots")
+            .data(keys)
+            .enter()
+            .append("rect")
+            .attr("x", 20)
+            .attr("y", function (d, i) {
+                return 20 + i * (size + 5)
+            })
+            .attr("width", size)
+            .attr("height", size)
+            .style("fill", function (d) {
+                return color(d)
+            })
             .on("mouseover", function (d) {
+                var value = getValue(d);
                 legend.select("#cursor")
-                    .attr('transform', 'translate(' + (legendCellSize + 5) + ', ' + (d * legendCellSize) + ')')
+                    .attr('transform', 'translate(' + (legendCellSize + 5) + ', ' + (value * legendCellSize) + ')')
                     .style("display", null);
-                d3.selectAll("path[fill='" + colors[d] + "']")
+                d3.selectAll("path[fill='" + colors[value] + "']")
                     .style('fill', "#FFFF00");
             })
             .on("mouseout", function (d) {
+                var value = getValue(d);
                 legend.select("#cursor")
                     .style("display", "none");
-                d3.selectAll("path[fill='" + colors[d] + "']")
-                    .style('fill', colors[d]);
+                d3.selectAll("path[fill='" + colors[value] + "']")
+                    .style('fill', colors[value]);
             });
 
-        legend.selectAll()
-            .attr('x', 10)
-            .attr('y', d => d * legendCellSize)
-            .style("fill", d => colors[d]);
-
-        svg.append("g")
-            .data([topo.features])
-            .attr('transform', 'translate(42, 150)')
-            .call(d3.axisRight(legendScale).ticks(7));
+        // Add one dot in the legend for each name.
+        SVG.selectAll("mylabels")
+            .data(keys)
+            .enter()
+            .append("text")
+            .attr("x", 25 + size * 1.2)
+            .attr("y", function (d, i) {
+                return 25 + i * (size + 5) + (size / 2)
+            }) // 100 is where the first dot appears. 25 is the distance between dots
+            .style("fill", "#000")
+            .text(function (d) {
+                return d
+            })
+            .attr("text-anchor", "left")
+            .style("alignment-baseline", "middle")
     }
 
 
@@ -262,5 +288,45 @@
         }
         return -1;
     }
+
+    function getValue(text) {
+        var value = 0;
+
+        switch (text) {
+            case keys[0]:
+                value = 0;
+                break;
+            case keys[1]:
+                value = 1;
+                break;
+            case keys[2]:
+                value = 2;
+                break;
+            case keys[3]:
+                value = 3;
+                break;
+            case keys[4]:
+                value = 4;
+                break;
+            case keys[5]:
+                value = 5;
+                break;
+            default:
+                console.log('Default triggered');
+                return;
+        }
+
+        return value;
+    }
 </script>
+
+<div class="doughnut" id="ddd">
+    <div class="mx-auto col-12 text-center">
+        <h5 class="mt-5 mb-0">Repartition of genres for <span id="country_name"></span></h5>
+        <h6 class="mt-5 mb-0">Only the top 10 genres are displayed.</h6>
+        <div id="chart"></div>
+    </div>
+</div>
+
+<script src="pie_chart.js"></script>
 </body>

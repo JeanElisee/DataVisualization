@@ -110,6 +110,13 @@ function changeData(data) {
             this._current = i;
         });
 
+    pie = document.getElementById("chart");
+    pie.hidden = false
+
+    path
+        .exit()
+        .remove()
+
     let legend = d3
         .select("#chart")
         .append("div")
@@ -137,7 +144,7 @@ function changeData(data) {
     keys
         .append("div")
         .attr("class", "name")
-        .text(d => `${d.title} (${d.value})`);
+        .text(d => `${d.title.replace("R\\u0026B", "R&B")} (${d.value})`);
 
     keys.exit().remove();
 }
